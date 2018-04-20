@@ -1,0 +1,6 @@
+[html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA] Running shell script
++ make push
+[1;33m=> Pushing Html Parser Docker Image ...
+[0mLoaded image: htmlparser:latest
+[1;33m=> Stage Test and Build Complete
+[0m

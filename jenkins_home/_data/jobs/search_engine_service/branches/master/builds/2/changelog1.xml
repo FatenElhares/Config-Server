@@ -1,0 +1,23 @@
+commit 0d221ff6b907a38569eb43133fb670a3dd4b644f
+tree 6fc1ac632d93c6ee36e09c84d4ef1945e7bc3074
+parent 7a1b8e8baf2a2b074ec16b5636ba6fc523f78a77
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 09:39:33 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 09:39:33 +0200
+
+    Delete Makefile
+
+
+
+:100755 100755 f90f01fb7f131c89e147e67155e3e3477e52c27b 031ebc515611275dc0f722dc8c2885e275c47e1b M	Jenkinsfile
+:100755 000000 04b05b676b281e0b469f50f9e4dc997418e3b6b9 0000000000000000000000000000000000000000 D	Makefile
+commit 7a1b8e8baf2a2b074ec16b5636ba6fc523f78a77
+tree ebc4344da1c3b2477c64b6afd40c43efb470d925
+parent c664edd972bcc523729defd78bafd514fe501050
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-18 09:38:20 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-18 09:38:20 +0200
+
+    Test WebHook (commit to ignore)
+
+
+
+:100755 100755 5e3a214cc1c1fc538de098faa912a03442e993b3 9d1c4df2f3d59ac9facda34c9bdcb1727ffc4bc9 M	src/test/java/com/pixalione/monetoring/seo/Model/SearchEngine/SearchEngineGoogleTest.java

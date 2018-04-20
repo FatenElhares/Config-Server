@@ -1,0 +1,71 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+Obtained Jenkinsfile from f3a2e42ed0b1b7309b9f3f25965172255fea764d
+Running in Durability level: MAX_SURVIVABILITY
+Loading library rdpixalione/config-server@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -t https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Found match: refs/heads/master revision 038357339291d337e079438c7fdc3b06b2db044d
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 038357339291d337e079438c7fdc3b06b2db044d (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 038357339291d337e079438c7fdc3b06b2db044d
+Commit message: "Adding Pre-prod stages"
+ > git rev-list --no-walk 271ead9564d4dd7d3e9e00d4b10a0dbca7650584 # timeout=10
+[Bitbucket] Notifying commit build result
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4K4MzFhT6D5/R1Js31HuD01X05fxR9+Xs/55mWynmuoQAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] deleteDir
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Git Clone and Setup)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/lemmatizer_service.git
+ > git init /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/lemmatizer_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/lemmatizer_service.git +refs/heads/master:refs/remotes/origin/master
+Aborted by [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)
+	at hudson.Proc$LocalProc.join(Proc.java:324)
+	at hudson.Proc.joinWithTimeout(Proc.java:170)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1992)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1715)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:72)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:405)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:614)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1120)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1160)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:113)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:85)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:75)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate(ACL.java:290)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: ABORTED

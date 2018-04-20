@@ -1,0 +1,16 @@
+commit e035434f41d8f3aca56b56d0fd68ddea482660fd
+tree a004419e54e456c2d408b4473384c3f12f0f4bb1
+parent 77e6c21cef5512d70f4bf702f8b9205ed6d0899f
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 17:24:42 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 17:24:42 +0200
+
+     delete codes
+
+
+
+:100755 000000 4dc4539477a9479ac48b83f5338674bb493c9ba5 0000000000000000000000000000000000000000 D	src/test/java/com/pixalione/refact/keywordrelevancy/KeywordRelevancyApplicationTests.java
+:100755 000000 6fccf123a3d2b4c40f6b4b9491249e6ab5a93de1 0000000000000000000000000000000000000000 D	src/test/java/com/pixalione/refact/keywordrelevancy/Service/CompareSeleniumAndJSoupAndJeriko.java
+:100755 000000 ae8e32972843f636d06e7a22e1499dfdb9c5246c 0000000000000000000000000000000000000000 D	src/test/java/com/pixalione/refact/keywordrelevancy/Service/Parsing/ParseHTMLServiceTest.java
+:100755 000000 d1e01d5a4a04c7aafa06a4410901e17fe477cef1 0000000000000000000000000000000000000000 D	src/test/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessingContexTest.java
+:100755 000000 b1c1b35461936abdf9be000e1b5735957a58d13a 0000000000000000000000000000000000000000 D	src/test/java/com/pixalione/refact/keywordrelevancy/Service/Processing/ProcessingContentTest.java
+:100755 000000 a3dc55b8233b837521dcbaeba11ade7d4911629c 0000000000000000000000000000000000000000 D	src/test/java/com/pixalione/refact/keywordrelevancy/Service/RestServiceTest.java

@@ -1,0 +1,97 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git
+ > git config remote.origin.url https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/Amine
+Seen branch in repository origin/master
+Seen 2 remote branches
+Obtained Jenkinsfile from d8d754a3c3fa4599f3af6a2dc8a14a3c33eaa195
+Loading library rdpixalione/config-server@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -t https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Found match: refs/heads/master revision f67e6e11f1683bc846ccc94256a248f3b9a5a284
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision f67e6e11f1683bc846ccc94256a248f3b9a5a284 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f67e6e11f1683bc846ccc94256a248f3b9a5a284
+Commit message: " Update Pipeline"
+ > git rev-list --no-walk f67e6e11f1683bc846ccc94256a248f3b9a5a284 # timeout=10
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4K4MzFhT6D5/R1Js31HuD01X05fxR9+Xs/55mWynmuoQAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] deleteDir
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Clone)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git
+ > git init /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA # timeout=10
+Fetching upstream changes from https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision d8d754a3c3fa4599f3af6a2dc8a14a3c33eaa195 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d8d754a3c3fa4599f3af6a2dc8a14a3c33eaa195
+Commit message: " Config pipeline"
+ > git rev-list --no-walk 1b44451347884592ab3bfe95d9d5db5931b908a0 # timeout=10
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA] Running shell script
++ make build
+[1;33m=> Compiling and Building...
+[0m/var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building keyword-relevancy 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading from nexus-pixalione: http://s3-world.dyndns.org:8081/repository/maven-public/com/monetoring/framework/monetoring-framework-center/1.0/monetoring-framework-center-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.609 s
+[INFO] Finished at: 2018-04-17T15:05:29Z
+[INFO] Final Memory: 22M/559M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project keyword-relevancy: Could not resolve dependencies for project com.pixalione.refact:keyword-relevancy:jar:0.0.1-SNAPSHOT: Failed to collect dependencies at com.monetoring.framework:monetoring-framework-center:jar:1.0: Failed to read artifact descriptor for com.monetoring.framework:monetoring-framework-center:jar:1.0: Could not transfer artifact com.monetoring.framework:monetoring-framework-center:pom:1.0 from/to nexus-pixalione (http://s3-world.dyndns.org:8081/repository/maven-public/): Not authorized , ReasonPhrase:Unauthorized. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+Makefile:18: recipe for target 'build' failed
+make: *** [build] Error 1
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE

@@ -1,0 +1,34 @@
+commit 34de2f564a86fbd1a86c3b1593509bfc0c50f22f
+tree 01557c045036a66bcaf946f827de902516710a07
+parent 1457c8762c8caddc99a46e6e70f95b837f1538b6
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 13:01:51 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 13:01:51 +0200
+
+     remote JenkinsFile
+
+
+
+:100755 000000 31b08055e4faa0f4b0d5095ac8d51c613ac4920f 0000000000000000000000000000000000000000 D	Jenkinsfile
+:000000 100755 0000000000000000000000000000000000000000 61c60b9ca04404ccc971f9bc5c5a0ef6abdff81d A	Jenkinsfile.groovy
+commit 1457c8762c8caddc99a46e6e70f95b837f1538b6
+tree 01efd2a100fd18e69ae0ad31129ea510bce83ff3
+parent 5a927fa5e28815043e4ec2e99d1aa307e57c381b
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 12:53:32 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 12:53:32 +0200
+
+     remote JenkinsFile
+
+
+
+:100755 100755 ecf7dd55014e9b86af4b047272df76c3a0789599 31b08055e4faa0f4b0d5095ac8d51c613ac4920f M	Jenkinsfile
+commit 5a927fa5e28815043e4ec2e99d1aa307e57c381b
+tree ad4613d894c6e371ec308a6b2549a7cd2610338b
+parent 61ebeaae69768e88cb97b2ef4538c4a48197a721
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 12:50:27 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 12:50:27 +0200
+
+     remote JenkinsFile
+
+
+
+:100755 100755 52ebeede4b3f1c5744b983ee4de47694070aefdf ecf7dd55014e9b86af4b047272df76c3a0789599 M	Jenkinsfile

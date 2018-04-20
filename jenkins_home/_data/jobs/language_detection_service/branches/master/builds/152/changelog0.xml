@@ -1,0 +1,24 @@
+commit f7ef5ae48b0f75ade06c1149f2465dba18512fba
+tree 146dabb1ed70cea6eed55764c542df4cc0865495
+parent 2500f667743a62eaf5775bb6fbd7349c7806801e
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 17:15:30 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 17:15:30 +0200
+
+    Adding a Tag system
+
+
+
+:100755 100755 ebf0295616a1c0a0ccf60cb7f259b181afbddd9a 93a49f473912d4e58ee8a6d55a93557b0832937d M	.idea/workspace.xml
+:100755 100755 ea4c5023b4e1a6041dbf5ed4fef762a6c468c289 020ca5e0de11de666d9bcaf45b6ea46a29c245b9 M	vars/standardPipeline.groovy
+commit 2500f667743a62eaf5775bb6fbd7349c7806801e
+tree a17cb494c2366fdad25b5e1f6803f96bd919b18c
+parent c958d6e5b5b92fe9df54bb7b40a77fb1c4f61f74
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 13:36:36 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 13:36:36 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 067f5b4d768ca5cea92c5e6dfa1f9545d543c293 ebf0295616a1c0a0ccf60cb7f259b181afbddd9a M	.idea/workspace.xml
+:100755 100755 85148390e70ff02777873d0de9acc25d3980e2ae ea4c5023b4e1a6041dbf5ed4fef762a6c468c289 M	vars/standardPipeline.groovy

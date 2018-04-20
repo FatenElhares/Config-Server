@@ -1,0 +1,215 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+Obtained Jenkinsfile from e88e65e2d8d6a0dbf52e2e5e3ad917308537fb15
+Running in Durability level: MAX_SURVIVABILITY
+Loading library rdpixalione/config-server@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -t https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Found match: refs/heads/master revision 419c061c9af761614ca5bb5fab14e81f9588d07a
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 419c061c9af761614ca5bb5fab14e81f9588d07a (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 419c061c9af761614ca5bb5fab14e81f9588d07a
+Commit message: "improving the syntax"
+ > git rev-list --no-walk 6489b44534dee3e753781f538579b772270c0e1b # timeout=10
+[Bitbucket] Notifying commit build result
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4K4MzFhT6D5/R1Js31HuD01X05fxR9+Xs/55mWynmuoQAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] deleteDir
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Clone)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git init /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision e88e65e2d8d6a0dbf52e2e5e3ad917308537fb15 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e88e65e2d8d6a0dbf52e2e5e3ad917308537fb15
+Commit message: "Update Jenkisfile"
+ > git rev-list --no-walk e88e65e2d8d6a0dbf52e2e5e3ad917308537fb15 # timeout=10
+[Bitbucket] Notifying commit build result
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Compiling and Building...
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Tests)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] parallel
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Test and Build] { (Branch: Test and Build)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Test with Sonar] { (Branch: Test with Sonar)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Test and Build] echo
+[Test and Build] Testing...
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Test and Build] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Test with Sonar] echo
+[Test with Sonar] Testing With Sonar Server ...
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Test with Sonar] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+an exception which occurred:
+	in field com.cloudbees.groovy.cps.Outcome.normal
+	in object com.cloudbees.groovy.cps.Outcome@7715421b
+	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler.outcomes
+	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler@729e1a6
+	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler$Callback.handler
+	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStep$ResultHandler$Callback@30cd67e
+	in field org.jenkinsci.plugins.workflow.cps.CpsBodyExecution.callbacks
+	in object org.jenkinsci.plugins.workflow.cps.CpsBodyExecution@852c7ef
+	in field org.jenkinsci.plugins.workflow.cps.steps.ParallelStepExecution.bodies
+	in object org.jenkinsci.plugins.workflow.cps.steps.ParallelStepExecution@6d28d0aa
+	in field org.jenkinsci.plugins.workflow.cps.CpsThread.step
+	in object org.jenkinsci.plugins.workflow.cps.CpsThread@42a3aa5f
+	in field org.jenkinsci.plugins.workflow.cps.CpsBodyExecution.thread
+	in object org.jenkinsci.plugins.workflow.cps.CpsBodyExecution@58f034a7
+	in field org.jenkinsci.plugins.workflow.cps.CpsBodyExecution$SuccessAdapter.this$0
+	in object org.jenkinsci.plugins.workflow.cps.CpsBodyExecution$SuccessAdapter@4f9e09cd
+	in field com.cloudbees.groovy.cps.impl.CallEnv.returnAddress
+	in object com.cloudbees.groovy.cps.impl.FunctionCallEnv@524e0040
+	in field com.cloudbees.groovy.cps.impl.ProxyEnv.parent
+	in object com.cloudbees.groovy.cps.impl.TryBlockEnv@2c977dc4
+	in field com.cloudbees.groovy.cps.impl.CallEnv.caller
+	in object com.cloudbees.groovy.cps.impl.ClosureCallEnv@2dab264c
+	in field com.cloudbees.groovy.cps.impl.ProxyEnv.parent
+	in object com.cloudbees.groovy.cps.impl.BlockScopeEnv@63d477a
+	in field com.cloudbees.groovy.cps.impl.ProxyEnv.parent
+	in object com.cloudbees.groovy.cps.impl.BlockScopeEnv@61e51154
+	in field com.cloudbees.groovy.cps.impl.CpsClosureDef.capture
+	in object com.cloudbees.groovy.cps.impl.CpsClosureDef@2b10cd63
+	in field com.cloudbees.groovy.cps.impl.CpsClosure.def
+	in object org.jenkinsci.plugins.workflow.cps.CpsClosure2@76cf23c2
+	in field org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.closures
+	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@3618dfaf
+	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@3618dfaf
+Caused: java.io.NotSerializableException: java.lang.UNIXProcess
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:860)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)
+	at org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)
+	at org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)
+	at org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:344)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor301.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:273)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:976)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:569)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:569)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:967)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:967)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:967)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:967)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:967)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:967)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)
+	at org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)
+	at org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)
+	at org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:344)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor301.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:273)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:976)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1032)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:988)
+	at org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:854)
+	at org.jboss.marshalling.AbstractObjectOutput.writeObject(AbstractObjectOutput.java:58)
+	at org.jboss.marshalling.AbstractMarshaller.writeObject(AbstractMarshaller.java:111)
+	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.lambda$writeObject$0(RiverWriter.java:144)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:108)
+	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.writeObject(RiverWriter.java:143)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:477)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:453)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgramIfPossible(CpsThreadGroup.java:440)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:367)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$200(CpsThreadGroup.java:83)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:244)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:232)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: FAILURE

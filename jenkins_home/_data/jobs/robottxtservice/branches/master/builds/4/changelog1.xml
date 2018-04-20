@@ -1,0 +1,12 @@
+commit bbcc3b61a07e6c057e254db286bd0541f7ad992c
+tree d4271420f3d0483c47e62aa10d6b2dcf2983ffda
+parent bb499ce9bd16e14087853634487a3d39c24b4bcd
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:29:44 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:29:44 +0200
+
+    Updating Jenkisfile & Makefile
+
+
+
+:100755 100755 fe59ee64bcbc647a2f5387c2ff69ee9f8455edae f90f01fb7f131c89e147e67155e3e3477e52c27b M	Jenkinsfile
+:100755 100755 8e80ce7a49db2e68d5d9914d42f352465895377f 832ff12117a1d4349939a3278c0230a3c678c593 M	Makefile

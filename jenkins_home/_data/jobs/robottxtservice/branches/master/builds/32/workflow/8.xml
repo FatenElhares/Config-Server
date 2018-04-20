@@ -1,0 +1,80 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.48">
+    <parentIds>
+      <string>7</string>
+    </parentIds>
+    <id>8</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.scm.GenericSCMStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1524212916852</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.48">
+      <arguments>
+        <entry>
+          <string>scm</string>
+          <hudson.plugins.git.GitSCM plugin="git@3.8.0">
+            <configVersion>2</configVersion>
+            <userRemoteConfigs>
+              <hudson.plugins.git.UserRemoteConfig>
+                <name>origin</name>
+                <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+                <url>https://bitbucket.org/rdpixalione/robottxtservice.git</url>
+                <credentialsId>bitbucket-cloud</credentialsId>
+              </hudson.plugins.git.UserRemoteConfig>
+            </userRemoteConfigs>
+            <branches class="singleton-list">
+              <hudson.plugins.git.BranchSpec>
+                <name>master</name>
+              </hudson.plugins.git.BranchSpec>
+            </branches>
+            <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+            <browser class="hudson.plugins.git.browser.BitbucketWeb">
+              <url>https://bitbucket.org/rdpixalione/robottxtservice</url>
+            </browser>
+            <submoduleCfg class="empty-list"/>
+            <extensions>
+              <jenkins.plugins.git.GitSCMSourceDefaults>
+                <includeTags>false</includeTags>
+              </jenkins.plugins.git.GitSCMSourceDefaults>
+              <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+                <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+                  <revision plugin="git-client@2.7.1">
+                    <sha1 serialization="custom">
+                      <unserializable-parents>
+                        <w1>1020122661</w1>
+                        <w2>401347099</w2>
+                        <w3>1941197367</w3>
+                        <w4>-394449154</w4>
+                        <w5>-613906106</w5>
+                      </unserializable-parents>
+                      <org.eclipse.jgit.lib.ObjectId>
+                        <int>1020122661</int>
+                        <int>401347099</int>
+                        <int>1941197367</int>
+                        <int>-394449154</int>
+                        <int>-613906106</int>
+                      </org.eclipse.jgit.lib.ObjectId>
+                    </sha1>
+                    <branches class="singleton-set">
+                      <hudson.plugins.git.Branch>
+                        <sha1 reference="../../../sha1"/>
+                        <name>master</name>
+                      </hudson.plugins.git.Branch>
+                    </branches>
+                  </revision>
+                </buildChooser>
+              </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            </extensions>
+          </hudson.plugins.git.GitSCM>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

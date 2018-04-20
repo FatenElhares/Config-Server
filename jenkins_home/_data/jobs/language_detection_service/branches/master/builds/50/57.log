@@ -1,0 +1,3 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7072:7072 languagedetection --rm
+143f6a7d7c05221bf2d9ba4de966e1817a8e962ed1e2d624584d558f695568af

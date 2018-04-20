@@ -1,0 +1,6 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ + + xargsssh docker rm -f
+ root@213.32.75.99xargs docker docker ps stop -a -q
+ --filter ancestor=languagedetection --format={{.ID}}
++ [[ 1c6e62ec84b8 563592a02787 143f6a7d7c05 -ne 0 ]]
+/var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-f8c1e941/script.sh: 2: /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-f8c1e941/script.sh: [[: not found

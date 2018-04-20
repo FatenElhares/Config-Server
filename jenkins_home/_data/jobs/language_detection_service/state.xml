@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.0.19">
+  <sourceActions>
+    <entry>
+      <string>810bce4e-7565-4b1b-bb7a-780665631c44</string>
+      <list>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction plugin="cloudbees-bitbucket-branch-source@2.2.10">
+          <scm>git</scm>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch plugin="cloudbees-bitbucket-branch-source@2.2.10">
+          <repoOwner>rdpixalione</repoOwner>
+          <repository>language_detection_service</repository>
+          <defaultBranch>master</defaultBranch>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@2.2.10">
+          <iconClassName>icon-bitbucket-repo</iconClassName>
+          <url>https://bitbucket.org/rdpixalione/language_detection_service</url>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.2.6">
+          <objectDisplayName>language_detection_service</objectDisplayName>
+          <objectUrl>https://bitbucket.org/rdpixalione/language_detection_service</objectUrl>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

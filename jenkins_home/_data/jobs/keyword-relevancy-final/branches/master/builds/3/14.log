@@ -1,0 +1,7 @@
+[word-relevancy-final_master-IRDRBOLRV3DWKPUYGW7GPXTVRSV4DVDTGW2XU3XN3BQPZJNQ6VLA] Running shell script
++ mvn compile
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Cannot create GC thread. Out of system resources.
+# An error report file with more information is saved as:
+# /var/jenkins_home/workspace/word-relevancy-final_master-IRDRBOLRV3DWKPUYGW7GPXTVRSV4DVDTGW2XU3XN3BQPZJNQ6VLA/hs_err_pid2966.log

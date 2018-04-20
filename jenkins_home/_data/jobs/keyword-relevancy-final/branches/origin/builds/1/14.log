@@ -1,0 +1,4 @@
+[word-relevancy-final_origin-PWKNYIZRVDH4QHK3F7UAYX52UDUZBMIT44CEQESDHZ2RZCY2ZFMA] Running shell script
++ mvn compile
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: unable to create new native thread

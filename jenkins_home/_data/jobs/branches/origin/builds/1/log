@@ -1,0 +1,312 @@
+Branch indexing
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://bitbucket.org/abhamza/keyword-relevancy-final/
+ > git config remote.origin.url https://bitbucket.org/abhamza/keyword-relevancy-final/ # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/amine
+Seen branch in repository origin/master
+Seen branch in repository origin/origin
+Seen 3 remote branches
+Obtained Jenkinsfile from eb3c96a8245463e80c93f4e77c3ffcf48c94fd10
+Running in Durability level: MAX_SURVIVABILITY
+Loading library rdpixalione/config-server@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -t https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Found match: refs/heads/master revision 1d5370df48414dfd75690172ad0ae8d7cd419f80
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git init /var/jenkins_home/workspace/origin-CKB6V4NV3DYUGDSHV2YQN5MYS4DWEYMEIWSFBVLVVK5ER6C3TM4Q@libs/rdpixalione/config-server # timeout=10
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 1d5370df48414dfd75690172ad0ae8d7cd419f80 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d5370df48414dfd75690172ad0ae8d7cd419f80
+Commit message: "Updating Sonar Stages"
+First time build. Skipping changelog.
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4K4MzFhT6D5/R1Js31HuD01X05fxR9+Xs/55mWynmuoQAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/origin-CKB6V4NV3DYUGDSHV2YQN5MYS4DWEYMEIWSFBVLVVK5ER6C3TM4Q
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] deleteDir
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Git Clone and Setup)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/abhamza/keyword-relevancy-final/
+ > git init /var/jenkins_home/workspace/origin-CKB6V4NV3DYUGDSHV2YQN5MYS4DWEYMEIWSFBVLVVK5ER6C3TM4Q # timeout=10
+Fetching upstream changes from https://bitbucket.org/abhamza/keyword-relevancy-final/
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/abhamza/keyword-relevancy-final/ +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://bitbucket.org/abhamza/keyword-relevancy-final/ # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://bitbucket.org/abhamza/keyword-relevancy-final/ # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+No valid HEAD. Skipping the resetting
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/abhamza/keyword-relevancy-final/
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/abhamza/keyword-relevancy-final/ +refs/heads/*:refs/remotes/origin/*
+Checking out Revision eb3c96a8245463e80c93f4e77c3ffcf48c94fd10 (origin)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f eb3c96a8245463e80c93f4e77c3ffcf48c94fd10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b origin eb3c96a8245463e80c93f4e77c3ffcf48c94fd10
+Commit message: "Maj 0.6 -Add JenkinsFile and DockerFile"
+First time build. Skipping changelog.
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+fatal: bad object 1d5370df48414dfd75690172ad0ae8d7cd419f80
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Compiling and Building...
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[origin-CKB6V4NV3DYUGDSHV2YQN5MYS4DWEYMEIWSFBVLVVK5ER6C3TM4Q] Running shell script
++ mvn compile
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.0.0.RELEASE/spring-boot-starter-parent-2.0.0.RELEASE.pom
+3/12 KB   5/12 KB   8/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.0.0.RELEASE/spring-boot-starter-parent-2.0.0.RELEASE.pom (12 KB at 21.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom
+3/121 KB   5/121 KB   8/121 KB   11/121 KB   13/121 KB   16/121 KB   19/121 KB   21/121 KB   24/121 KB   27/121 KB   29/121 KB   32/121 KB   36/121 KB   40/121 KB   44/121 KB   48/121 KB   52/121 KB   56/121 KB   60/121 KB   64/121 KB   68/121 KB   72/121 KB   76/121 KB   80/121 KB   84/121 KB   88/121 KB   92/121 KB   96/121 KB   100/121 KB   104/121 KB   108/121 KB   112/121 KB   116/121 KB   120/121 KB   121/121 KB                Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom (121 KB at 1503.2 KB/sec)
+Downloading: https://repo.spring.io/milestone/io/netty/netty-bom/4.1.22.Final/netty-bom-4.1.22.Final.pom
+             Downloading: https://repo.spring.io/snapshot/io/netty/netty-bom/4.1.22.Final/netty-bom-4.1.22.Final.pom
+             Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/io/netty/netty-bom/4.1.22.Final/netty-bom-4.1.22.Final.pom
+             Downloading: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.22.Final/netty-bom-4.1.22.Final.pom
+4/8 KB       8/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.22.Final/netty-bom-4.1.22.Final.pom (8 KB at 257.5 KB/sec)
+Downloading: https://repo.spring.io/milestone/io/projectreactor/reactor-bom/Bismuth-SR7/reactor-bom-Bismuth-SR7.pom
+         Downloading: https://repo.spring.io/snapshot/io/projectreactor/reactor-bom/Bismuth-SR7/reactor-bom-Bismuth-SR7.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/io/projectreactor/reactor-bom/Bismuth-SR7/reactor-bom-Bismuth-SR7.pom
+         Downloading: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Bismuth-SR7/reactor-bom-Bismuth-SR7.pom
+4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Bismuth-SR7/reactor-bom-Bismuth-SR7.pom (4 KB at 161.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.10.0/log4j-bom-2.10.0.pom (6 KB at 238.8 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/logging/logging-parent/1/logging-parent-1.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/logging/logging-parent/1/logging-parent-1.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/logging/logging-parent/1/logging-parent-1.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom (4 KB at 146.9 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/eclipse/jetty/jetty-bom/9.4.8.v20171121/jetty-bom-9.4.8.v20171121.pom
+         Downloading: https://repo.spring.io/snapshot/org/eclipse/jetty/jetty-bom/9.4.8.v20171121/jetty-bom-9.4.8.v20171121.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/eclipse/jetty/jetty-bom/9.4.8.v20171121/jetty-bom-9.4.8.v20171121.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.8.v20171121/jetty-bom-9.4.8.v20171121.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.8.v20171121/jetty-bom-9.4.8.v20171121.pom (17 KB at 623.9 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-framework-bom/5.0.4.RELEASE/spring-framework-bom-5.0.4.RELEASE.pom
+1/6 KB     2/6 KB   4/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/spring-framework-bom/5.0.4.RELEASE/spring-framework-bom-5.0.4.RELEASE.pom (6 KB at 20.5 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/data/spring-data-releasetrain/Kay-SR5/spring-data-releasetrain-Kay-SR5.pom
+1/5 KB   2/5 KB   4/5 KB   5/5 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/data/spring-data-releasetrain/Kay-SR5/spring-data-releasetrain-Kay-SR5.pom (5 KB at 20.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/data/build/spring-data-build/2.0.5.RELEASE/spring-data-build-2.0.5.RELEASE.pom
+1/7 KB   2/7 KB   4/7 KB   5/7 KB   6/7 KB   7/7 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/data/build/spring-data-build/2.0.5.RELEASE/spring-data-build-2.0.5.RELEASE.pom (7 KB at 29.3 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/integration/spring-integration-bom/5.0.3.RELEASE/spring-integration-bom-5.0.3.RELEASE.pom
+1/9 KB   2/9 KB   4/9 KB   5/9 KB   6/9 KB   8/9 KB   9/9 KB   9/9 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/integration/spring-integration-bom/5.0.3.RELEASE/spring-integration-bom-5.0.3.RELEASE.pom (9 KB at 38.8 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/security/spring-security-bom/5.0.3.RELEASE/spring-security-bom-5.0.3.RELEASE.pom
+1/5 KB   2/5 KB   4/5 KB   5/5 KB   5/5 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/security/spring-security-bom/5.0.3.RELEASE/spring-security-bom-5.0.3.RELEASE.pom (5 KB at 21.4 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/session/spring-session-bom/Apple-SR1/spring-session-bom-Apple-SR1.pom
+1/3 KB   2/3 KB   3/3 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/session/spring-session-bom/Apple-SR1/spring-session-bom-Apple-SR1.pom (3 KB at 11.4 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building keyword_relevancy 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.0.0.RELEASE/spring-boot-maven-plugin-2.0.0.RELEASE.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.0.0.RELEASE/spring-boot-maven-plugin-2.0.0.RELEASE.pom (5 KB at 193.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/2.0.0.RELEASE/spring-boot-tools-2.0.0.RELEASE.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/2.0.0.RELEASE/spring-boot-tools-2.0.0.RELEASE.pom (2 KB at 84.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/2.0.0.RELEASE/spring-boot-parent-2.0.0.RELEASE.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/2.0.0.RELEASE/spring-boot-parent-2.0.0.RELEASE.pom (2 KB at 80.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.0.0.RELEASE/spring-boot-maven-plugin-2.0.0.RELEASE.jar
+3/63 KB   5/63 KB   8/63 KB   11/63 KB   13/63 KB   16/63 KB   19/63 KB   21/63 KB   24/63 KB   27/63 KB   29/63 KB   32/63 KB   36/63 KB   40/63 KB   44/63 KB   48/63 KB   52/63 KB   56/63 KB   60/63 KB   63/63 KB              Downloaded: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.0.0.RELEASE/spring-boot-maven-plugin-2.0.0.RELEASE.jar (63 KB at 1495.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.1/maven-resources-plugin-3.0.1.pom
+4/7 KB     7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.1/maven-resources-plugin-3.0.1.pom (7 KB at 349.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+3/10 KB   5/10 KB   8/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom (10 KB at 367.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom
+3/41 KB    5/41 KB   8/41 KB   11/41 KB   13/41 KB   16/41 KB   19/41 KB   21/41 KB   24/41 KB   27/41 KB   29/41 KB   32/41 KB   36/41 KB   40/41 KB   41/41 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom (41 KB at 1441.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.1/maven-resources-plugin-3.0.1.jar
+4/31 KB    8/31 KB   12/31 KB   16/31 KB   20/31 KB   24/31 KB   28/31 KB   31/31 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.1/maven-resources-plugin-3.0.1.jar (31 KB at 1182.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.7.0/maven-compiler-plugin-3.7.0.pom
+4/11 KB    8/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.7.0/maven-compiler-plugin-3.7.0.pom (11 KB at 498.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.7.0/maven-compiler-plugin-3.7.0.jar
+4/57 KB    8/57 KB   12/57 KB   16/57 KB   20/57 KB   24/57 KB   28/57 KB   32/57 KB   36/57 KB   40/57 KB   44/57 KB   48/57 KB   52/57 KB   56/57 KB   57/57 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.7.0/maven-compiler-plugin-3.7.0.jar (57 KB at 1672.3 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-web/2.0.0.RELEASE/spring-boot-starter-web-2.0.0.RELEASE.pom
+1/4 KB     2/4 KB   4/4 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-web/2.0.0.RELEASE/spring-boot-starter-web-2.0.0.RELEASE.pom (4 KB at 14.5 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starters/2.0.0.RELEASE/spring-boot-starters-2.0.0.RELEASE.pom
+1/2 KB   2/2 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starters/2.0.0.RELEASE/spring-boot-starters-2.0.0.RELEASE.pom (2 KB at 8.2 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter/2.0.0.RELEASE/spring-boot-starter-2.0.0.RELEASE.pom
+1/4 KB   2/4 KB   4/4 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter/2.0.0.RELEASE/spring-boot-starter-2.0.0.RELEASE.pom (4 KB at 13.8 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.pom
+1/14 KB   2/14 KB   4/14 KB   5/14 KB   6/14 KB   8/14 KB   9/14 KB   10/14 KB   12/14 KB   13/14 KB   14/14 KB              Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.pom (14 KB at 60.5 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.pom
+1/6 KB     2/6 KB   4/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.pom (6 KB at 25.7 KB/sec)
+Downloading: https://repo.spring.io/milestone/io/projectreactor/reactor-bom/Bismuth-SR6/reactor-bom-Bismuth-SR6.pom
+         Downloading: https://repo.spring.io/snapshot/io/projectreactor/reactor-bom/Bismuth-SR6/reactor-bom-Bismuth-SR6.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/io/projectreactor/reactor-bom/Bismuth-SR6/reactor-bom-Bismuth-SR6.pom
+         Downloading: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Bismuth-SR6/reactor-bom-Bismuth-SR6.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Bismuth-SR6/reactor-bom-Bismuth-SR6.pom (4 KB at 161.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/io/netty/netty-bom/4.1.21.Final/netty-bom-4.1.21.Final.pom
+         Downloading: https://repo.spring.io/snapshot/io/netty/netty-bom/4.1.21.Final/netty-bom-4.1.21.Final.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/io/netty/netty-bom/4.1.21.Final/netty-bom-4.1.21.Final.pom
+         Downloading: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.21.Final/netty-bom-4.1.21.Final.pom
+3/8 KB   5/8 KB   8/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.21.Final/netty-bom-4.1.21.Final.pom (8 KB at 335.9 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-jcl/5.0.4.RELEASE/spring-jcl-5.0.4.RELEASE.pom
+1/3 KB   2/3 KB   3/3 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/spring-jcl/5.0.4.RELEASE/spring-jcl-5.0.4.RELEASE.pom (3 KB at 8.7 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.pom
+1/9 KB   2/9 KB   4/9 KB   5/9 KB   6/9 KB   8/9 KB   9/9 KB   9/9 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.pom (9 KB at 40.8 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-aop/5.0.4.RELEASE/spring-aop-5.0.4.RELEASE.pom
+1/4 KB   2/4 KB   4/4 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/spring-aop/5.0.4.RELEASE/spring-aop-5.0.4.RELEASE.pom (4 KB at 12.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.pom
+1/4 KB   2/4 KB   4/4 KB   4/4 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.pom (4 KB at 17.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-expression/5.0.4.RELEASE/spring-expression-5.0.4.RELEASE.pom
+1/2 KB   2/2 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/spring-expression/5.0.4.RELEASE/spring-expression-5.0.4.RELEASE.pom (2 KB at 8.4 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.pom
+1/31 KB   2/31 KB   4/31 KB   5/31 KB   6/31 KB   8/31 KB   9/31 KB   10/31 KB   12/31 KB   13/31 KB   13/31 KB   15/31 KB   16/31 KB   17/31 KB   19/31 KB   20/31 KB   21/31 KB   23/31 KB   24/31 KB   25/31 KB   27/31 KB   28/31 KB   29/31 KB   31/31 KB   31/31 KB              Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE.pom (31 KB at 98.4 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-logging/2.0.0.RELEASE/spring-boot-starter-logging-2.0.0.RELEASE.pom
+1/3 KB     2/3 KB   3/3 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-logging/2.0.0.RELEASE/spring-boot-starter-logging-2.0.0.RELEASE.pom (3 KB at 8.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+         Downloading: https://repo.spring.io/snapshot/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+         Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+3/13 KB   5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom (13 KB at 491.3 KB/sec)
+Downloading: https://repo.spring.io/milestone/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+           Downloading: https://repo.spring.io/snapshot/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+           Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+3/18 KB    5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom (18 KB at 668.2 KB/sec)
+Downloading: https://repo.spring.io/milestone/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+           Downloading: https://repo.spring.io/snapshot/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+           Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom (5 KB at 151.8 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.pom
+3/8 KB   5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.pom (8 KB at 318.5 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom
+3/55 KB   5/55 KB   8/55 KB   11/55 KB   13/55 KB   16/55 KB   19/55 KB   21/55 KB   24/55 KB   27/55 KB   29/55 KB   32/55 KB   36/55 KB   40/55 KB   44/55 KB   48/55 KB   52/55 KB   55/55 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.10.0/log4j-2.10.0.pom (55 KB at 1366.3 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.pom
+           Downloading: https://repo.spring.io/snapshot/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.pom (13 KB at 246.6 KB/sec)
+Downloading: https://repo.spring.io/milestone/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+           Downloading: https://repo.spring.io/snapshot/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+           Downloading: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom
+4/15 KB    8/15 KB   12/15 KB   15/15 KB              Downloaded: https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.pom (15 KB at 523.7 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+           Downloading: https://repo.spring.io/snapshot/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom
+4/35 KB    8/35 KB   12/35 KB   16/35 KB   20/35 KB   24/35 KB   28/35 KB   32/35 KB   35/35 KB              Downloaded: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/1.19/snakeyaml-1.19.pom (35 KB at 1147.6 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-json/2.0.0.RELEASE/spring-boot-starter-json-2.0.0.RELEASE.pom
+1/4 KB     2/4 KB   4/4 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-json/2.0.0.RELEASE/spring-boot-starter-json-2.0.0.RELEASE.pom (4 KB at 12.5 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.pom
+1/19 KB   2/19 KB   4/19 KB   5/19 KB   6/19 KB   8/19 KB   9/19 KB   10/19 KB   12/19 KB   13/19 KB   14/19 KB   16/19 KB   17/19 KB   18/19 KB   19/19 KB              Downloaded: https://repo.spring.io/milestone/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.pom (19 KB at 82.7 KB/sec)
+Downloading: https://repo.spring.io/milestone/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.pom
+           Downloading: https://repo.spring.io/snapshot/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.pom
+           Downloading: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.4/jackson-datatype-jdk8-2.9.4.pom (2 KB at 85.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/com/fasterxml/jackson/module/jackson-modules-java8/2.9.4/jackson-modules-java8-2.9.4.pom
+         Downloading: https://repo.spring.io/snapshot/com/fasterxml/jackson/module/jackson-modules-java8/2.9.4/jackson-modules-java8-2.9.4.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/com/fasterxml/jackson/module/jackson-modules-java8/2.9.4/jackson-modules-java8-2.9.4.pom
+         Downloading: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.9.4/jackson-modules-java8-2.9.4.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.9.4/jackson-modules-java8-2.9.4.pom (3 KB at 142.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.pom
+         Downloading: https://repo.spring.io/snapshot/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.pom
+         Downloading: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.4/jackson-datatype-jsr310-2.9.4.pom (5 KB at 189.4 KB/sec)
+Downloading: https://repo.spring.io/milestone/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.pom
+         Downloading: https://repo.spring.io/snapshot/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.pom
+         Downloading: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.4/jackson-module-parameter-names-2.9.4.pom (4 KB at 173.5 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-tomcat/2.0.0.RELEASE/spring-boot-starter-tomcat-2.0.0.RELEASE.pom
+1/3 KB   2/3 KB   3/3 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-tomcat/2.0.0.RELEASE/spring-boot-starter-tomcat-2.0.0.RELEASE.pom (3 KB at 11.4 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/8.5.28/tomcat-embed-core-8.5.28.pom (2 KB at 76.8 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.pom (2 KB at 65.2 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.28/tomcat-embed-websocket-8.5.28.pom (2 KB at 73.4 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/apache/tomcat/tomcat-annotations-api/8.5.28/tomcat-annotations-api-8.5.28.pom
+         Downloading: https://repo.spring.io/snapshot/org/apache/tomcat/tomcat-annotations-api/8.5.28/tomcat-annotations-api-8.5.28.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/apache/tomcat/tomcat-annotations-api/8.5.28/tomcat-annotations-api-8.5.28.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.28/tomcat-annotations-api-8.5.28.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/8.5.28/tomcat-annotations-api-8.5.28.pom (2 KB at 64.9 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.pom
+         Downloading: https://repo.spring.io/snapshot/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.pom
+         Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.pom
+3/20 KB   5/20 KB   8/20 KB   11/20 KB   13/20 KB   16/20 KB   19/20 KB   20/20 KB              Downloaded: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.7.Final/hibernate-validator-6.0.7.Final.pom (20 KB at 686.6 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/hibernate/validator/hibernate-validator-parent/6.0.7.Final/hibernate-validator-parent-6.0.7.Final.pom
+           Downloading: https://repo.spring.io/snapshot/org/hibernate/validator/hibernate-validator-parent/6.0.7.Final/hibernate-validator-parent-6.0.7.Final.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/hibernate/validator/hibernate-validator-parent/6.0.7.Final/hibernate-validator-parent-6.0.7.Final.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.7.Final/hibernate-validator-parent-6.0.7.Final.pom
+3/57 KB    5/57 KB   8/57 KB   11/57 KB   13/57 KB   16/57 KB   19/57 KB   21/57 KB   24/57 KB   27/57 KB   29/57 KB   32/57 KB   36/57 KB   40/57 KB   44/57 KB   48/57 KB   52/57 KB   56/57 KB   57/57 KB              Downloaded: https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.7.Final/hibernate-validator-parent-6.0.7.Final.pom (57 KB at 1386.8 KB/sec)
+Downloading: https://repo.spring.io/milestone/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom
+           Downloading: https://repo.spring.io/snapshot/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom
+           Downloading: https://repo.maven.apache.org/maven2/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom
+4/12 KB    8/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom (12 KB at 496.3 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+           Downloading: https://repo.spring.io/snapshot/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+           Downloading: https://dl.bintray.com/rabbitmq/maven-milestones/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom
+4/7 KB     7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom (7 KB at 295.4 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.pom
+1/14 KB   2/14 KB   4/14 KB   5/14 KB   6/14 KB   8/14 KB   9/14 KB   11/14 KB   12/14 KB   13/14 KB   13/14 KB   14/14 KB              Downloaded: https://repo.spring.io/milestone/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.pom (14 KB at 54.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-test/2.0.0.RELEASE/spring-boot-starter-test-2.0.0.RELEASE.pom
+1/5 KB     2/5 KB   4/5 KB   5/5 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-starter-test/2.0.0.RELEASE/spring-boot-starter-test-2.0.0.RELEASE.pom (5 KB at 20.0 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-test/2.0.0.RELEASE/spring-boot-test-2.0.0.RELEASE.pom
+1/7 KB   2/7 KB   4/7 KB   5/7 KB   6/7 KB   7/7 KB            Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-test/2.0.0.RELEASE/spring-boot-test-2.0.0.RELEASE.pom (7 KB at 30.9 KB/sec)
+Downloading: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-test-autoconfigure/2.0.0.RELEASE/spring-boot-test-autoconfigure-2.0.0.RELEASE.pom
+1/10 KB   2/10 KB   4/10 KB   5/10 KB   6/10 KB   8/10 KB   9/10 KB   10/10 KB              Downloaded: https://repo.spring.io/milestone/org/springframework/boot/spring-boot-test-autoconfigure/2.0.0.RELEASE/spring-boot-test-autoconfigure-2.0.0.RELEASE.pom (10 KB at 43.1 KB/sec)
+Sending interrupt signal to process
+Downloading: https://repo.spring.io/milestone/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.pom
+Terminated
+OpenJDK 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGTERM to handler- the VM may need to be forcibly terminated
+OpenJDK 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGTERM to handler- the VM may need to be forcibly terminated
+           Downloading: https://repo.spring.io/snapshot/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.pom
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4Ak1jwjt+cJzAkYfIFj4pKAoLBX6XAKfqtC+da3o+2mFAAAA+B+LCAAAAAAAAP9djz1OAzEUhN9uBDWiRHT0z/kR5AelggKkCJDCBZZgvN41fub5mYSGQ3ANaJC4AofgAnTUFDQsbAVTzEzzjTRPH7AWGQ6JDVba19bHhcXgkmkaLonrK0dLjCkEYsEoOkS0PiTBs9P5+dFd0Oysr09I9MZb5+Vz+PWeQzaDTmInsDmrittCucIbNRe23uyvGLbLdBnJ44J8JKfxz8re9PF5+hBec8iPYd1pb6Rs527gHrIG3/qHH7T5A0OrLAdYhaagQLYjoEqRMFGq3xvgoI/DXRyPJ6PuqKsqulC/Rmyby6qnRPP1Nw+muocWAQAA[0mClick here to forcibly terminate running steps

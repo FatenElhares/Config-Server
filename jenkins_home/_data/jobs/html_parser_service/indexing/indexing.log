@@ -1,0 +1,15 @@
+Started
+[Tue Apr 17 10:10:34 UTC 2018] Starting branch indexing...
+Connecting to https://bitbucket.org using amine@pixalione.com/****** (Bitbucket server credentials)
+Repository type: Git
+Looking up rdpixalione/html_parser_service for branches
+Checking branch master from rdpixalione/html_parser_service
+      ‘Jenkinsfile’ found
+    Met criteria
+Takeover for [8mha:////4Esba9mh0MhQODliMtjf01V99vcuPmsVVu+GCTXdBdYtAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyZEgYV/az8JP2Mktyc+ILEouLUonggLstMTgWL5yYWl6QW6QMA7vENutkAAAA=[0mhtml_parser_service » master by source #1 from source that no longer exists
+Branch reopened: master (189f0b23192e39e99253e048cd6bbaab9c8eeec0)
+Scheduled build for branch: master
+
+  1 branches were processed
+[Tue Apr 17 10:10:35 UTC 2018] Finished branch indexing. Indexing took 0.9 sec
+Finished: SUCCESS

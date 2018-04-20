@@ -1,0 +1,9 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:d188107c46aeccba45dd7d86cd1a5c48d966d8ec350b097461d2ceffa7c98ced
+Deleted: sha256:dde059e43fe2a7c0b8b4f4cf5fabb6e6c6100d1728e240a0a5f128f64b0a913b
+Deleted: sha256:20516f274f6ce278705cc068d9556781917b66d27ca886cfe631a4de75553fda
+Deleted: sha256:6047354c015eef66e79d87852ba22486be6d8e5123b40a837ce80f7be81d5c75
+[1;33m=> Clean Complete
+[0m

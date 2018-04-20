@@ -1,0 +1,11 @@
+[nd_detection_service_master-IPT3NWHNQZ4CFDHIO4BCY4OTGPEBLC3YHRT5RGIUOII2KPQ34YSA] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:cc26e3410a9fd4d5b07e60b87ad9f6f19d9e06c7fd009116681a9f77b55969a0
+Deleted: sha256:439eb6076d3fad8fc2ec779f885cfe49d8f3a27826dd797a88183a3a57323ca4
+Deleted: sha256:c9113a7181d4997f54951370b391aa92c65d512f8cfb576a1061e38e7233bbce
+Deleted: sha256:be1430d4e0462f572b692e28fc069921c97eca4d776bdf12257e197007af8c44
+Deleted: sha256:9252ac09c29405defcbc3e7b2803bed9fd953d2454dc9b6fd037677ad522cbb2
+Deleted: sha256:fc4d1263f9baca17f98be84993b7577b3928bce257b4d8187bf2b89d70c98b31
+[1;33m=> Clean Complete
+[0m

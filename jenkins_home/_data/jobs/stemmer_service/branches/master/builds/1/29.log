@@ -1,0 +1,9 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:463a6d06704777a4f53758f6312f1baf99e4cc8168cff66844b9d8be8cf52493
+Deleted: sha256:33ec0b0fc346451d0d117a542680ab8f33dab9cc74330a7257feed2f72b14659
+Deleted: sha256:f77a8be66abc4f3bf26a235c85dab25826f95000cada9cc522b7d54921079434
+Deleted: sha256:2d7035cd99ff528d4750bde1ccb4cac88d53e811b448c61ede6dd58f1d2efd0f
+[1;33m=> Clean Complete
+[0m

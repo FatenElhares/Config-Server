@@ -1,0 +1,80 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2.45">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <startId>4</startId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@2.27"/>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1523957943948</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.27">
+      <error class="hudson.AbortException">
+        <detailMessage>Could not determine exact tip revision of master</detailMessage>
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.multibranch.SCMVar.getValue(SCMVar.java:103)</trace>
+          <trace>org.jenkinsci.plugins.workflow.multibranch.SCMVar.getValue(SCMVar.java:58)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsScript.getProperty(CpsScript.java:121)</trace>
+          <trace>org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:174)</trace>
+          <trace>groovy.lang.Closure.getPropertyTryThese(Closure.java:312)</trace>
+          <trace>groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)</trace>
+          <trace>groovy.lang.Closure.getProperty(Closure.java:295)</trace>
+          <trace>org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:174)</trace>
+          <trace>groovy.lang.Closure.getPropertyTryThese(Closure.java:312)</trace>
+          <trace>groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)</trace>
+          <trace>groovy.lang.Closure.getProperty(Closure.java:295)</trace>
+          <trace>org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:174)</trace>
+          <trace>org.codehaus.groovy.runtime.ScriptBytecodeAdapter.getProperty(ScriptBytecodeAdapter.java:456)</trace>
+          <trace>com.cloudbees.groovy.cps.sandbox.DefaultInvoker.getProperty(DefaultInvoker.java:34)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.PropertyAccessBlock.rawGet(PropertyAccessBlock.java:20)</trace>
+          <trace>standardPipeline.call(/var/jenkins_home/jobs/brand_detection_service/branches/master/builds/4/libs/rdpixalione/config-server/vars/standardPipeline.groovy:14)</trace>
+          <trace>___cps.transform___(Native Method)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.get(PropertyishBlock.java:74)</trace>
+          <trace>com.cloudbees.groovy.cps.LValueBlock$GetAdapter.receive(LValueBlock.java:30)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.PropertyishBlock$ContinuationImpl.fixName(PropertyishBlock.java:66)</trace>
+          <trace>sun.reflect.GeneratedMethodAccessor121.invoke(Unknown Source)</trace>
+          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)</trace>
+          <trace>com.cloudbees.groovy.cps.Next.step(Next.java:83)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:122)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:261)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:19)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:35)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:32)</trace>
+          <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:108)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:32)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:174)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:331)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$200(CpsThreadGroup.java:82)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:243)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:231)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1523957943958</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

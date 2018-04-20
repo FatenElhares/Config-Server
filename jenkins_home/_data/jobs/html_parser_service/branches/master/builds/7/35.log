@@ -1,0 +1,10 @@
+[html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA] Running shell script
++ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=htmlparser --format={{.ID}}
++ xargs docker stop
++ xargs docker rm -f
+"docker rm" requires at least 1 argument(s).
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+Remove one or more containers

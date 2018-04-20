@@ -1,0 +1,98 @@
+Branch indexing
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to git@bitbucket.org:abhamza/keyword-relevancy-final.git
+ > git config remote.origin.url git@bitbucket.org:abhamza/keyword-relevancy-final.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_SSH to set credentials jenkins-generated-ssh-key
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/amine
+Seen branch in repository origin/master
+Seen branch in repository origin/origin
+Seen 3 remote branches
+Obtained Jenkinsfile from 2470490998e04b77e40a67289d4f5fc151e5e3dc
+Running in Durability level: MAX_SURVIVABILITY
+Loading library rdpixalione/config-server@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -t https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Found match: refs/heads/master revision c31dbe2e69175c1e7ad6b230ed62affcbfd11562
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git init /var/jenkins_home/workspace/word-relevancy-final_master-IRDRBOLRV3DWKPUYGW7GPXTVRSV4DVDTGW2XU3XN3BQPZJNQ6VLA@libs/rdpixalione/config-server # timeout=10
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision c31dbe2e69175c1e7ad6b230ed62affcbfd11562 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c31dbe2e69175c1e7ad6b230ed62affcbfd11562
+Commit message: "Updating Sonar Stages"
+First time build. Skipping changelog.
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4K4MzFhT6D5/R1Js31HuD01X05fxR9+Xs/55mWynmuoQAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/word-relevancy-final_master-IRDRBOLRV3DWKPUYGW7GPXTVRSV4DVDTGW2XU3XN3BQPZJNQ6VLA
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] deleteDir
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Git Clone and Setup)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository git@bitbucket.org:abhamza/keyword-relevancy-final.git
+ > git init /var/jenkins_home/workspace/word-relevancy-final_master-IRDRBOLRV3DWKPUYGW7GPXTVRSV4DVDTGW2XU3XN3BQPZJNQ6VLA # timeout=10
+Fetching upstream changes from git@bitbucket.org:abhamza/keyword-relevancy-final.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials jenkins-generated-ssh-key
+ > git fetch --no-tags --progress git@bitbucket.org:abhamza/keyword-relevancy-final.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@bitbucket.org:abhamza/keyword-relevancy-final.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@bitbucket.org:abhamza/keyword-relevancy-final.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+No valid HEAD. Skipping the resetting
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from git@bitbucket.org:abhamza/keyword-relevancy-final.git
+using GIT_SSH to set credentials jenkins-generated-ssh-key
+ > git fetch --no-tags --progress git@bitbucket.org:abhamza/keyword-relevancy-final.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 2470490998e04b77e40a67289d4f5fc151e5e3dc (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2470490998e04b77e40a67289d4f5fc151e5e3dc
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 2470490998e04b77e40a67289d4f5fc151e5e3dc
+Commit message: "Merge branch 'master' of https://bitbucket.org/abhamza/keyword-relevancy-final"
+First time build. Skipping changelog.
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+fatal: bad object c31dbe2e69175c1e7ad6b230ed62affcbfd11562
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Compiling and Building...
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[word-relevancy-final_master-IRDRBOLRV3DWKPUYGW7GPXTVRSV4DVDTGW2XU3XN3BQPZJNQ6VLA] Running shell script
+sh: 1: Cannot fork
++ mvn compile
+/usr/bin/mvn: 53: /usr/bin/mvn: Cannot fork
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4M0V9PLP6zVz+MKemnNnnAazoay+mPDPpiBaS17KUDe5AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE

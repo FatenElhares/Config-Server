@@ -1,0 +1,11 @@
+commit 3774be15165489118e49ffc8161882e956496470
+tree 9ed86ebf7380f1a8c5102d726ce0d3a6941793a3
+parent 8e2ec2a4dd33cd556e1b71f5c6632d9b8d4bd39c
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:12:48 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:12:48 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 06d6125a468e080e2dc654f13b9396710a514313 fede5480bbca5ff8b0a27056093371a156dbacf4 M	vars/standardPipeline.groovy

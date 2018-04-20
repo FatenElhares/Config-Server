@@ -1,0 +1,6 @@
+[nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ] Running shell script
++ make push
+[1;33m=> Pushing Cleanning Content Docker Image ...
+[0mLoaded image: cleanningcontent:latest
+[1;33m=> Stage Test and Build Complete
+[0m

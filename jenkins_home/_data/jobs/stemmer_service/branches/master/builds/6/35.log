@@ -1,0 +1,5 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=stemmer --format={{.ID}}
++ xargs docker rm -f
++ xargs docker stop
+61ed4a005bd1

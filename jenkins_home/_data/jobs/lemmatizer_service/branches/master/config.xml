@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.12.2">
+  <actions>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.5">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/lemmatizer_service/branches</mappedUrl>
+        <modelObject class="flow-definition" reference="../../../.."/>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.2.7"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.2.7">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@2.16">
+      <branch plugin="branch-api@2.0.19">
+        <sourceId>3b3e5ac9-2657-4c39-a242-7fb3d9d22c84</sourceId>
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead" plugin="cloudbees-bitbucket-branch-source@2.2.10">
+          <name>master</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <scm class="hudson.plugins.git.GitSCM" plugin="git@3.8.0">
+          <configVersion>2</configVersion>
+          <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+              <url>https://bitbucket.org/rdpixalione/lemmatizer_service.git</url>
+              <credentialsId>bitbucket-cloud</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+          </userRemoteConfigs>
+          <branches class="singleton-list">
+            <hudson.plugins.git.BranchSpec>
+              <name>master</name>
+            </hudson.plugins.git.BranchSpec>
+          </branches>
+          <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+          <browser class="hudson.plugins.git.browser.BitbucketWeb">
+            <url>https://bitbucket.org/rdpixalione/lemmatizer_service</url>
+          </browser>
+          <submoduleCfg class="empty-list"/>
+          <extensions>
+            <jenkins.plugins.git.GitSCMSourceDefaults>
+              <includeTags>false</includeTags>
+            </jenkins.plugins.git.GitSCMSourceDefaults>
+          </extensions>
+        </scm>
+        <properties/>
+        <actions>
+          <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@2.2.10">
+            <iconClassName>icon-bitbucket-branch</iconClassName>
+            <url>https://bitbucket.org/rdpixalione/lemmatizer_service/branch/master</url>
+          </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+          <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.2.6">
+            <objectUrl>https://bitbucket.org/rdpixalione/lemmatizer_service/branch/master</objectUrl>
+          </jenkins.scm.api.metadata.ObjectMetadataAction>
+          <jenkins.scm.api.metadata.PrimaryInstanceMetadataAction plugin="scm-api@2.2.6"/>
+        </actions>
+      </branch>
+    </org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.multibranch.SCMBinder" plugin="workflow-multibranch@2.16">
+    <scriptPath>Jenkinsfile</scriptPath>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,8 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ bzip2
++ pv
++ ssh amine@137.74.200.56 bunzip2 | docker load
++ docker save languagedetection
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).

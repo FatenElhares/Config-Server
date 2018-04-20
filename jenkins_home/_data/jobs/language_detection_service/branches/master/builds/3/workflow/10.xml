@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.45">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1523872822014</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.45">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=61ebeaae69768e88cb97b2ef4538c4a48197a721</string>
+            <string>GIT_PREVIOUS_COMMIT=61ebeaae69768e88cb97b2ef4538c4a48197a721</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=61ebeaae69768e88cb97b2ef4538c4a48197a721</string>
+            <string>GIT_URL=https://bitbucket.org/rdpixalione/language_detection_service.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1523872822023</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

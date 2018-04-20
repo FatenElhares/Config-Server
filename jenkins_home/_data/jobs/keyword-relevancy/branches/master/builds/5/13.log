@@ -1,0 +1,26 @@
+[keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA] Running shell script
++ make build
+[1;33m=> Compiling and Building...
+[0m/var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building keyword-relevancy 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading from nexus-pixalione: http://s3-world.dyndns.org:8081/repository/maven-public/com/monetoring/framework/monetoring-framework-center/1.0/monetoring-framework-center-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.933 s
+[INFO] Finished at: 2018-04-17T15:10:35Z
+[INFO] Final Memory: 22M/559M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project keyword-relevancy: Could not resolve dependencies for project com.pixalione.refact:keyword-relevancy:jar:0.0.1-SNAPSHOT: Failed to collect dependencies at com.monetoring.framework:monetoring-framework-center:jar:1.0: Failed to read artifact descriptor for com.monetoring.framework:monetoring-framework-center:jar:1.0: Could not transfer artifact com.monetoring.framework:monetoring-framework-center:pom:1.0 from/to nexus-pixalione (http://s3-world.dyndns.org:8081/repository/maven-public/): Not authorized , ReasonPhrase:Unauthorized. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+Makefile:18: recipe for target 'build' failed
+make: *** [build] Error 1

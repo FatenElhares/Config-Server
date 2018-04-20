@@ -1,0 +1,30 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+ERROR: Could not do lightweight checkout, falling back to heavyweight
+java.io.FileNotFoundException: URL: https://api.bitbucket.org/2.0/repositories/rdpixalione/language_detection_service/src/9dbeeebf70b8957da04227f7a4c95851640cb031/Jenkinsfile
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getRequestAsInputStream(BitbucketCloudApiClient.java:696)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getFileContent(BitbucketCloudApiClient.java:878)
+	at com.cloudbees.jenkins.plugins.bitbucket.filesystem.BitbucketSCMFile.content(BitbucketSCMFile.java:99)
+	at jenkins.scm.api.SCMFile.contentAsString(SCMFile.java:338)
+	at org.jenkinsci.plugins.workflow.multibranch.SCMBinder.create(SCMBinder.java:104)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:263)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Checking out git https://bitbucket.org/rdpixalione/language_detection_service.git into /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@script to read Jenkinsfile
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 9dbeeebf70b8957da04227f7a4c95851640cb031 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9dbeeebf70b8957da04227f7a4c95851640cb031
+Commit message: " remote JenkinsFile"
+ > git rev-list --no-walk 34de2f564a86fbd1a86c3b1593509bfc0c50f22f # timeout=10
+[Bitbucket] Notifying commit build result
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+ERROR: /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@script/Jenkinsfile not found
+Finished: FAILURE

@@ -1,0 +1,11 @@
+commit 5d5418728da9ca3d1b3766513643653ec5de7fad
+tree 48b452e9eb0f2e5b0d196a2e1e1fde2d04e6bcdd
+parent 2e41c7593fb38eef8005c884e5e2c8f9d16c3d19
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 13:25:08 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 13:25:08 +0200
+
+     remote JenkinsFile
+
+
+
+:100755 100755 b5a9c7eecbd4141881cf262d94a3a443f7e8e184 2710f0408ba1ac812cefa11ff3d062aa3e61af14 M	Jenkinsfile

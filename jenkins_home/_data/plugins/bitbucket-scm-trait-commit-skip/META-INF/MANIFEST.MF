@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jdelgado
+Build-Jdk: 1.8.0_131
+Extension-Name: bitbucket-scm-trait-commit-skip
+Specification-Title: Adds a filtering trait according to the commit me
+ ssage (containing a [ci skip] or [skip ci] text) to an existing Bitbu
+ cket Branch Source Plugin configuration.
+Implementation-Title: bitbucket-scm-trait-commit-skip
+Implementation-Version: 0.1.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: bitbucket-scm-trait-commit-skip
+Long-Name: Bitbucket Commit Skip SCM Behaviour
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Bitbucket+Commit+Skip
+ +SCM+Behaviour+Plugin
+Plugin-Version: 0.1.1
+Hudson-Version: 2.32.3
+Jenkins-Version: 2.32.3
+Plugin-Dependencies: cloudbees-bitbucket-branch-source:2.2.3
+Plugin-Developers: Javier Delgado:witokodoria:witokondoria@gmail.com
+

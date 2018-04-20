@@ -1,0 +1,4 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ mvn compile
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: unable to create new native thread

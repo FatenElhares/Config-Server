@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/cleanningcontent_service.git
+ > git init /var/jenkins_home/workspace/nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/cleanningcontent_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/cleanningcontent_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/cleanningcontent_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/cleanningcontent_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/cleanningcontent_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/cleanningcontent_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 732f4510cadbefda91eef5173c6e447c9adb6378 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 732f4510cadbefda91eef5173c6e447c9adb6378
+Commit message: "Add normlization transformer on normalized Stopword"
+ > git rev-list --no-walk 732f4510cadbefda91eef5173c6e447c9adb6378 # timeout=10
+[Bitbucket] Notifying commit build result

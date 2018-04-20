@@ -1,0 +1,4 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7072:7072 .projectName
+docker: invalid reference format: repository name must be lowercase.
+See 'docker run --help'.

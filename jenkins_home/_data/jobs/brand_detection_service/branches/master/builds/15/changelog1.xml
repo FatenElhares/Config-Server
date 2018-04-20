@@ -1,0 +1,85 @@
+commit c8946232875f30b90faf9be74dc3f526c73e534b
+tree b9dce1e06a6f484d2cbfbfc4fc17a5405c5382b6
+parent 588ee5341d785ec398481abf23a77c6500f9855c
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 11:06:18 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 11:06:18 +0200
+
+    Adding Tag variable
+
+
+
+:100755 100755 aebdb73617f57c91695d831d69da4637785034f0 19e00de8977b0cd051bb25a2590ad975bd40df64 M	Jenkinsfile
+commit 2292f1ff974129d1983552f36092ebd5942402dd
+tree 4eafaef0b8aeedcc6a11898aaecb14cccd943a69
+parent d0b754e0af32050ca3a465089a8ea07321e65673
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-19 11:43:15 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-19 11:43:15 +0200
+
+    Improve QA Add Internet as Exception
+
+
+
+:100755 100755 673d26a13994f35ddcd33b8ee5cc3218eafc9343 9b63756dfacb8fcd5a43c126d3752ee7eb91f88f M	src/main/java/com/pixalione/monetoring/datapreprocessing/service/DicoService.java
+:100755 100755 4117a86499b21e88f521216c8179d5105970b8e4 4ec23830b3d0fda9b608df0d25ec1b1eebc99d64 M	src/test/java/com/pixalione/monetoring/datapreprocessing/service/DicoServiceTest.java
+commit 9a40b9e252968232a1dff86fb921ce51ab9a419d
+tree ce3783839a2a1a464672169da82c812651d63ab9
+parent a6c1db341525682bc76b9877e3f82aecc1b6e9c3
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-19 11:40:07 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-19 11:40:07 +0200
+
+    Improve QA Add Internet as Exception
+
+
+
+:100755 100755 0752e3c1ecce50703471d202feefc02962262dfc 59288d2c68ff53bbd1ece2f7ab559c9f95007a75 M	Exception/exceptions_ENGLISH.csv
+:100755 100755 a4f8dce4b7e210f27b968abbb9894e89b4b95463 f5ec3dce15461b8b33ab13b0ed666b455f848b06 M	Exception/exceptions_FRENCH.csv
+:100755 100755 1a4c02de04482a6c73a56c694e2c7cc4ec98191e 44e931f9f27b728bb6318e102182307088a531a0 M	pom.xml
+:100755 000000 dba07c4146e36b50dd10eadf68e4e4ae954b8efc 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/DICTIONNARY.java
+:100755 000000 84ceb6ed7a79ee68a86d78dc4a527d5b2434a073 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/AbstractConsumer.java
+:100755 000000 8648bab4b3c73762f0c83e013246df73c21058d3 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/DicoService.java
+:100755 000000 a59a11dab433013cf7f37a3a0330d145fc5fb104 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/OfflineDicoService.java
+:100755 000000 a1eb3c1bc3e4b66b9dc3ac0e079db47f99a27e22 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/OnlineDicService.java
+:100755 000000 cffc24adfaca83ebf4b4cca18bf36612691b4192 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/WordDaoService.java
+:100755 100755 46afb8e9eeb168ccc601e08b6a463d287f38d764 80edc1574d58b297f9b2b29ccaea20d6db0b16f0 R060	src/main/java/com/pixalione/monetoring/data_preprocessing/BrandDetectionApplication.java	src/main/java/com/pixalione/monetoring/datapreprocessing/BrandDetectionApplication.java
+:100755 100755 8ed72230b91ed1a25db13935192616e9b93361a4 ff2a6ae721a78e20d9b634af6e9ccbd19c4e8601 R080	src/main/java/com/pixalione/monetoring/data_preprocessing/Config/MongoConfig.java	src/main/java/com/pixalione/monetoring/datapreprocessing/config/MongoConfig.java
+:100755 100755 c9893c31129ebbaca0791a66a9a384ff59c2613c 727248764ed6ea61e9f568d61ea5488a360a9ca6 R092	src/main/java/com/pixalione/monetoring/data_preprocessing/Config/SwaggerConfig.java	src/main/java/com/pixalione/monetoring/datapreprocessing/config/SwaggerConfig.java
+:100755 100755 cdc24bfcd671ddf41ff951a6c558cb587e391019 cb8af51dd61b24c8b7f09e69436cb888ec68a73d R077	src/main/java/com/pixalione/monetoring/data_preprocessing/Config/UnirestConfig.java	src/main/java/com/pixalione/monetoring/datapreprocessing/config/UnirestConfig.java
+:100755 100755 3e09e399e635c1720faf07c1e28bb5493e4e9947 13704b7582ac761f9cbb69a3be45f1501261b16a R060	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/BrandDetectionController.java	src/main/java/com/pixalione/monetoring/datapreprocessing/controller/BrandDetectionController.java
+:100755 100755 b584b6583afe0083d868bbb615ab0ca836756969 229f0a8ba9e27a5e0fcd17a339c9b915f7d08f68 R068	src/main/java/com/pixalione/monetoring/data_preprocessing/Core/CambridgeDictionnary.java	src/main/java/com/pixalione/monetoring/datapreprocessing/core/CambridgeDictionnary.java
+:100755 100755 578e10c973240b348971b5d9dd927de683cbc33f 10965960932db9e1ad7230c236777a5ecad5ffab R053	src/main/java/com/pixalione/monetoring/data_preprocessing/Core/DictionaryParser.java	src/main/java/com/pixalione/monetoring/datapreprocessing/core/DictionaryParser.java
+:100755 100755 2279669567c0dea2399126c27058bbd5cd5eaab7 95d88da4c48e3682fe4585b80275fb0dadc65ad1 R068	src/main/java/com/pixalione/monetoring/data_preprocessing/Core/GlosbeDictionnary.java	src/main/java/com/pixalione/monetoring/datapreprocessing/core/GlosbeDictionnary.java
+:100755 100755 c06f95cf9b2eb9f6a0d3dfaebbda638402609f16 08ed29fd60c9fd000ce1bf3186eb663fefbf359c R068	src/main/java/com/pixalione/monetoring/data_preprocessing/Core/LarousseDictionnary.java	src/main/java/com/pixalione/monetoring/datapreprocessing/core/LarousseDictionnary.java
+:100755 100755 ee9c8938ee913bd026caf4a96872e755015b3427 df74a82c914c4cb370321a75293d3ea807dfead5 R075	src/main/java/com/pixalione/monetoring/data_preprocessing/Dao/AbstractMongoDao.java	src/main/java/com/pixalione/monetoring/datapreprocessing/dao/AbstractMongoDao.java
+:100755 100755 2d16fb8cbf35634bc2ed6bbdb251b999525356db c031c050247920175da6357aa61634f92c5b3e95 R065	src/main/java/com/pixalione/monetoring/data_preprocessing/Dao/BrandDao.java	src/main/java/com/pixalione/monetoring/datapreprocessing/dao/BrandDao.java
+:100755 100755 2b2726a6cc626f739634e6668c44afb71c12096a 83f44d831b806f5fdfefb031e4af2c076b5d9074 R053	src/main/java/com/pixalione/monetoring/data_preprocessing/Dao/NoneBrandDao.java	src/main/java/com/pixalione/monetoring/datapreprocessing/dao/NoneBrandDao.java
+:000000 100755 0000000000000000000000000000000000000000 cf2523d69c38a5d8be40f8fe71255b40122883ed A	src/main/java/com/pixalione/monetoring/datapreprocessing/model/DICTIONNARY.java
+:100755 100755 04419c85f72ea31f4aa2bf1986dd7a099de27fef b76752a4d38bfc3819ebe8fbb8be8d33f94f0460 R089	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Language.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/Language.java
+:100644 100644 da38cbe5fef9c526bd5eb8196255d3398788d412 fd215ade5dca0dc6421fcd9cf0120c2b614d0561 R082	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/StemmResult.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/StemmResult.java
+:100755 100755 37fa8ef94ce377226325fb3bfa02dfe1305ab2c4 f9fa2377f1f0f5cbef2ef5b706a17480c83f70b0 R078	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Dico/Glosbe/GlosbeResponse.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/dico/glosbe/GlosbeResponse.java
+:100755 100755 a0cf108ca497c2bb6b36116d236912e5defc5c62 78fbe698ebea838ceef64edaa3d062f5bacb2abf R091	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Dico/Glosbe/Meaning.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/dico/glosbe/Meaning.java
+:100755 100755 98db788be916e73e0cbc343df322741048858dbf cc03b9c4751a3185a534f11549832876300571ca R091	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Dico/Glosbe/Phrase.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/dico/glosbe/Phrase.java
+:100755 100755 ee203419cb6e8cdd519adc1cf6e9cdffb2cb8df2 d478e3c1783ea2534fd6d68205014f076178839b R086	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Dico/Glosbe/Tuc.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/dico/glosbe/Tuc.java
+:100755 100755 9bd2d43e1f8bbb40a0317d734eb9a267ad8f4aab 8cb80d3dda8b6f6755b94ad654a51899dc6a7685 R092	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Dico/Larousse/LarousseResult.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/dico/larousse/LarousseResult.java
+:100755 100755 e6880d035af664ab5b5f8756cba0b8392dd9453a 5c6e6834a62a581ab4a2f1def9a0b8dd95bb0155 R066	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Pojo/Brand.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/pojo/Brand.java
+:100755 100755 a27daf21336e74817e884130262b69082cc7b95d 58a6626597023242ffdc4f4aed91ca425a55339c R082	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Pojo/NoneBrand.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/pojo/NoneBrand.java
+:100755 100755 91c9216475c0470bd434751931ffedd80730fa5b cb5d5d1d7be69b6f8a4e74104e50e44a51653f75 R090	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/Pojo/Word.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/pojo/Word.java
+:000000 100755 0000000000000000000000000000000000000000 039443aa8024bc67b91159d9769b7c07ded4b8dc A	src/main/java/com/pixalione/monetoring/datapreprocessing/service/AbstractConsumer.java
+:100755 100755 23c404d09a003267977e3a2f2fbd03ccd2fcf112 80d1278c42367c9e2a5cae219594e4f5cd1f2961 R053	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/BrandAndNoneBrandDaoService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/BrandAndNoneBrandDaoService.java
+:000000 100755 0000000000000000000000000000000000000000 673d26a13994f35ddcd33b8ee5cc3218eafc9343 A	src/main/java/com/pixalione/monetoring/datapreprocessing/service/DicoService.java
+:100755 100755 03d6294116f44bc22c9823f98ab58178aae1504e 01d3600de834da9748d0ecdaf1907fc103d38b01 R064	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/ExceptionService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/ExceptionService.java
+:000000 100755 0000000000000000000000000000000000000000 fd31e328da5c78a626619fb70e4661c9eae65893 A	src/main/java/com/pixalione/monetoring/datapreprocessing/service/OfflineDicoService.java
+:000000 100755 0000000000000000000000000000000000000000 30f20365367f5c7199574381eff7f26dd8898a89 A	src/main/java/com/pixalione/monetoring/datapreprocessing/service/OnlineDicService.java
+:100755 100755 92e3422a4d0e5f124bcbaa572f3045ea98bde1e4 d9f6315ac59d3f4d1a5d0fcf4b9cd697cbba0e4d R060	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/PreProcessTextService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/PreProcessTextService.java
+:100755 100755 1e038d854a5ba49a6eb5f2b6b38d63acc6c334a7 e6c9334c32927e3561c2c3ee7b2c021c41ed775b R065	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/RestService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/RestService.java
+:000000 100755 0000000000000000000000000000000000000000 274f46fc0b1af1c0d72d9a86453af661c6d3a4c3 A	src/main/java/com/pixalione/monetoring/datapreprocessing/service/WordDaoService.java
+:100755 100755 e6eef857d223b97d6a79ad9e19fdd001d4d79813 8778ebad73ce6fbdcb815e832beff5cfd9eaaa77 M	src/main/resources/application.properties
+:100755 100755 83bce22832d105c910fbf7ae68f890eea5afad03 831989d3b71bbf794dff6d52aa953a257cdf7962 R071	src/test/java/com/pixalione/monetoring/data_preprocessing/BrandDetectionApplicationTests.java	src/test/java/com/pixalione/monetoring/datapreprocessing/BrandDetectionApplicationTests.java
+:100755 100755 a5c49e90437dace793241beee3a10da7743f74f0 aadfa8ded7159bf755fcf32511a406bdc64e60c1 R078	src/test/java/com/pixalione/monetoring/data_preprocessing/Core/CambridgeDictionnaryTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/core/CambridgeDictionnaryTest.java
+:100755 100755 d336e4efd819d59af594b634a1ce1a17d29ce688 3233c89d542789a3a5c640de49c5bcf06949a15b R082	src/test/java/com/pixalione/monetoring/data_preprocessing/Core/GlosbeDictionnaryTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/core/GlosbeDictionnaryTest.java
+:100755 100755 8b055e6cfc3c40ead35565b374031b93dc30796c 647b619b05f8b4c020a64e1abe6f7aa96e6dd466 R082	src/test/java/com/pixalione/monetoring/data_preprocessing/Core/LarousseDictionnaryTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/core/LarousseDictionnaryTest.java
+:100755 100755 2295bf18098b3339895e55b136ec6a013c4368f7 4117a86499b21e88f521216c8179d5105970b8e4 R073	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/DicoServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/DicoServiceTest.java
+:100755 100755 67034109e022d1991c9fe302b208e8c83e904fec 1236c94eb3c49fbb3011245b42cdf993dd7d2271 R082	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/ExceptionServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/ExceptionServiceTest.java
+:100755 100755 bba12893b437d0d8c2ef3fd49939527f3c28ab8f a1823557e96b643df03a7d3137d4bc444db614ec R070	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/OfflineDicoServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/OfflineDicoServiceTest.java
+:100755 100755 54c61ab004e50b112215f28a00a39ab0cfd89fa8 b7fd9c7a3ef450fa548afba369009796f4eaabe5 R065	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/OnlineDicServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/OnlineDicServiceTest.java
+:100755 100755 f49f1ea9ab764b5e13a83d5abeb493fc5932d302 a53ceaab147ad8df4d32aaa92023d94ef7a3ac0d R081	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/PreProcessTextServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/PreProcessTextServiceTest.java
+:100755 100755 3b0e8aea3ba1ed65042f09456540be3e056989ed 179931f18a3b4dc89cad1f1d65c092d4a1cee395 R076	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/RestServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/RestServiceTest.java

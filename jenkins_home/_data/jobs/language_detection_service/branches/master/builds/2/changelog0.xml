@@ -1,0 +1,23 @@
+commit 61ebeaae69768e88cb97b2ef4538c4a48197a721
+tree 00b2452bcc6e5da2925fe3835f19126f89df2a99
+parent 6c5907b944261ca4a1beb51adee3b9a5d6be7fec
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 11:01:17 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 11:01:17 +0200
+
+     Adding Sonar Stage
+
+
+
+:100755 100755 fe59ee64bcbc647a2f5387c2ff69ee9f8455edae 52ebeede4b3f1c5744b983ee4de47694070aefdf M	Jenkinsfile
+:100755 100755 818a832114924eaae25eb49cc04d7e2fcd42db72 b4014705912aa4d4476037447b18c1baf692ce82 M	Makefile
+commit 6c5907b944261ca4a1beb51adee3b9a5d6be7fec
+tree 57dfbb189246d4edf258432292ff6b5b223e9f37
+parent 03c47fd7609c503e34b3acac51d6ef480c1e2524
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 10:54:10 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 10:54:10 +0200
+
+     Updating Dockerfile : Add external folder
+
+
+
+:100755 100755 68aca099b330c0c1a5c389bc429a276423e32f58 d70c9ce4b87f3ddbb80209cee26e7d4eab1c5c06 M	Dockerfile

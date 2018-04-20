@@ -1,0 +1,11 @@
+commit 8df948581ef44f09909efc8999022bed0607a301
+tree d1b4c1f67b45aa8867c8c2ed5a590039e41d3dce
+parent d61689f67f65c98840f3e63c2e09f4de73403814
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 11:26:56 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 11:26:56 +0200
+
+    Updating Jenkis
+
+
+
+:100644 100644 3fd15521f663a3bbbe6140525ac904256eeb07b4 5633a9f068055a01283fc7a37ae9a5d3526388d1 M	vars/standardPipeline.groovy

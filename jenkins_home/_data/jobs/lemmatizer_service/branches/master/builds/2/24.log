@@ -1,0 +1,6 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ make push
+[1;33m=> Pushing Lemmatizer Docker Image ...
+[0mSending interrupt signal to process
+Makefile:29: recipe for target 'push' failed
+make: *** [push] Terminated

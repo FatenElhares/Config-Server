@@ -1,0 +1,3 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 6060:6060 robottxt:0.1
+983585bf2782a9cb83f5f5be6f7c52b3e472a8785cf07ae566fcab25d32f9917

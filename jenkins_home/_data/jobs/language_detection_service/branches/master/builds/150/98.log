@@ -1,0 +1,9 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ ssh root@137.74.200.56 Clean-Container languagedetection
+languagedetection
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers

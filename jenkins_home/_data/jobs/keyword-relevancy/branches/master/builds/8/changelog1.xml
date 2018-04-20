@@ -1,0 +1,42 @@
+commit 77e6c21cef5512d70f4bf702f8b9205ed6d0899f
+tree 1c8e1510a20c20d706fda9c95fc238df80128e32
+parent 4b8156219475e650de85b529572d6bd78fbb0c4e
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 17:23:30 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 17:23:30 +0200
+
+     Config pipeline
+
+
+
+:100755 000000 f1c7ee6c4680bb99d9407e86ea89c24b7e48a865 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Common/JsoupUtil.java
+:100755 000000 1c06f88dc0b9b52bc9ce1e30880c7adeb107c5e1 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Common/ReaderUtil.java
+:100755 000000 fff9fa849542c8e9a60b67fdb12c1379786322c1 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/KeywordRelevancyApplication.java
+:100755 000000 1f8423e87eeb2ed78208c025fa64395806c74863 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Model/Emun/Engine.java
+:100755 000000 754ba969e2b9c55e1ccb7f5f856723bbf042099e 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Model/Emun/LANGUAGE.java
+:100755 000000 7e07e12a6b271498560310db8a0bea50a60fc84f 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Model/Emun/SELECTOR.java
+:100755 000000 e4b1a0f63f46df611b88ced032df16922b1f1a13 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Model/IResult.java
+:100755 000000 3773349855c5820872702cc91a1391a2da559f9c 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Model/LemmResult.java
+:100755 000000 7ea055697ea81170c24ce5cc918128c77433783f 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Model/SEResult.java
+:100755 000000 bf136cc89942f047789cd68c8644c73103b3466a 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Model/StemmResult.java
+:100755 000000 2bab0ca3899ab9849914e1be0b08dc9c323da2b9 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Filtering/FilterKeywords.java
+:100755 000000 0664f149bc738fc685aae496e742c3395bc29743 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Filtering/FilterSERPs.java
+:100755 000000 92fa7b391e067ea20fe854c6b8fa8ab9b94dfd6e 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Filtering/FilterTitles.java
+:100755 000000 9b60774bc3460d91b9e7b061a484fb1549e86b51 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Filtering/FilterUtils.java
+:100755 000000 4ddb1a3590b746398d06e7ba8880574053e8e02d 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Filtering/testFilter.java
+:100755 000000 d311a446391847aca7c892932dca7bff28bdaf05 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Parsing/ParseHTMLService.java
+:100755 000000 85c0dcc47f45ea3e70a16a9755d7ef4a3181bdde 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessNormalizer.java
+:100755 000000 2926f15c42d4359809703590ccfd02a4387338d3 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessReconstruct.java
+:100755 000000 aec0e8fb956008be0cc48d50a8f93af6123ab802 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessSentences.java
+:100755 000000 f75de81c3680a3efb7fad52a6771ab0dca3b2959 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessToPortion.java
+:100755 000000 1dcf7713c60fc2f335d7a391731d41c4e8f66d27 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessTokenize.java
+:100755 000000 b6936a8e6f5a14e6519cbfafd6a0c72a21e3b22d 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessWords.java
+:100755 000000 f6bde13f276fc01b22509a7e5488303a64a68f02 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessingContex.java
+:100755 000000 ef41bf83141779bf593498c5003a93a4d3bc960c 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/PreprocesingStrings/PreprocessingStategy.java
+:100755 000000 a342ea167e221a33ea6a7ccbfcf6756d416dcf3b 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Processing/ProcessingContent.java
+:100755 000000 0fa60e4322d9c0e4a0a3cf46333a1402952b216f 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/RestService.java
+:100755 000000 b9ec5add3ddfaa708afd089b14f62a380dcb3ea5 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Scoring/FinalScore.java
+:100755 000000 cbc69e73032d1e94602f7980b06b0d4238f108eb 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Scoring/IScoringRules.java
+:100755 000000 a341c15ebfbd40b0ea6c21e9f1a218bd735ec63a 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Scoring/MidOrLastCond.java
+:100755 000000 fd58c57239aa991742bfd8e6237f37112aac9adf 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Scoring/OnePortionCond.java
+:100755 000000 a346e6969555c7a72d6c6dafc64079400c51b4b0 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Service/Scoring/firstOfPortion.java
+:100755 000000 af32ee190931d4eee2ef1aeeefc383ba61a84f03 0000000000000000000000000000000000000000 D	src/main/java/com/pixalione/refact/keywordrelevancy/Utils/Configuration.java

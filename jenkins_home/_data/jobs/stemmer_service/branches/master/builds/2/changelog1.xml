@@ -1,0 +1,26 @@
+commit 9e464101e514b7d6f81ea8392c97685eaee9d1cc
+tree ce764c55efb8551fcc90c29eb7a31d1d598a6da5
+parent c47a09cd9af88211086092d4562cd24c349a9135
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:40:57 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:40:57 +0200
+
+    Updating JenkisFile & Makefile
+
+
+
+:100755 100755 fe59ee64bcbc647a2f5387c2ff69ee9f8455edae f90f01fb7f131c89e147e67155e3e3477e52c27b M	Jenkinsfile
+:100755 100755 e02503eb3d2caff654e28a52f56395584aae0333 bc69785b67ee2097c379e77864e4599f2788dc3f M	Makefile
+commit 1ccdb8ec236cfe88d837a8c28dd10b382862aae4
+tree 63e8ff638b94d3364eda979abeabf5010782ce21
+parent c43cac726a60bd2879e747272abdb7987136ff53
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 20:20:04 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 20:20:04 +0200
+
+    Add Cache
+
+
+
+:100644 100644 05e6e485285bddc23b3bcbc01d31d45d0bed2949 56fca97c8d52f8823b50b88f6700b47ebdb52eac M	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/PaiceHuskStemmerController.java
+:100644 100644 4b5e6fdfbba49466cfb5eae3627f6e53e2fc7b33 2664ae6cb26aa6ef960ccefee4e55c267b8bf355 M	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/SnowBallStemmerController.java
+:100644 100644 3c361b1f3af9b286e5241c848f85af5f95ce2bdd 1a7f04cc50230503e99e5c89fd52c15762c62a67 M	src/main/java/com/pixalione/monetoring/data_preprocessing/PixalioneApplication.java
+:100644 100644 97944b1ac84d06e5d887397a693db0a3630c5143 235276ddf2c1796b013b4d51733596fa64d15c66 M	src/main/resources/application.properties

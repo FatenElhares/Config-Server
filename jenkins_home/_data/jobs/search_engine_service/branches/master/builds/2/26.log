@@ -1,0 +1,101 @@
+[earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ] Running shell script
++ mvn sonar:sonar -Dsonar.host.url=http://213.32.75.99:9000 -Dsonar.login=4f71b9d7d33b0f4e07d40d3acc7c26dad5e95fdc
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.pixalione.monetoring.seo:searchengine:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.jdo:jdo-api:jar -> duplicate declaration of version 3.0.1 @ line 104, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building searchengine 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ searchengine ---
+[INFO] User cache: /root/.sonar/cache
+[INFO] SonarQube version: 7.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Publish mode
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=83ms
+[INFO] Server id: AWLNpaenYXGBWF_7PvT0
+[INFO] User cache: /root/.sonar/cache
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=109ms
+[INFO] Load/download plugins
+[INFO] Load/download plugins (done) | time=32ms
+[INFO] Process project properties
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=119ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=47ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=510ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=22ms
+[INFO] Project key: com.pixalione.monetoring.seo:searchengine
+[INFO] -------------  Scan searchengine
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=55ms
+[INFO] Base dir: /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ
+[INFO] Working dir: /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/target/sonar
+[INFO] Source paths: pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en
+[INFO] Index files
+[INFO] 34 files indexed
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=28ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=6ms
+[INFO] Java Main Files AST scan
+[INFO] 28 source files to be analyzed
+[INFO] 28/28 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=3719ms
+[INFO] Java Test Files AST scan
+[INFO] 5 source files to be analyzed
+[INFO] 5/5 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=174ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=4746ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=2ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[INFO] Sensor SonarJavaXmlFileSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor SonarJavaXmlFileSensor [java] (done) | time=603ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=144ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=112ms
+[INFO] Sensor CPD Block Indexer
+[INFO] Sensor CPD Block Indexer (done) | time=87ms
+[INFO] SCM provider for this project is: git
+[INFO] 1 files to be analyzed
+[INFO] 1/1 files analyzed
+[INFO] 7 files had no CPD blocks
+[INFO] Calculating CPD for 21 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 225ms, dir size=273 KB
+[INFO] Analysis reports compressed in 90ms, zip size=123 KB
+[INFO] Analysis report uploaded in 49ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://213.32.75.99:9000/dashboard/index/com.pixalione.monetoring.seo:searchengine
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://213.32.75.99:9000/api/ce/task?id=AWLc74OOgr_boLqFP8Yv
+[INFO] Task total time: 9.920 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.538 s
+[INFO] Finished at: 2018-04-19T08:05:07+00:00
+[INFO] Final Memory: 56M/1017M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,44 @@
+commit de672cef761ca3fd6bfc341ba5345ecbed9032d8
+tree 2620e8e280aad8a9a2fc3248f33e5058b88e3bc8
+parent 1810b5ae29f18d9f9f3f53f857ac505681509cbb
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 11:18:54 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 11:18:54 +0200
+
+    Update Jenkisfile
+
+
+
+:100755 100755 75ec5e8997c64a03492f7de4a8fe71fb0e66d8f8 8465e028883bf17fdf465618c8395e30aeadfa5e M	Jenkinsfile
+commit 1810b5ae29f18d9f9f3f53f857ac505681509cbb
+tree e224d0af623d7c4612d0f2f116f438b4544964bb
+parent 2925c8acb3accaead7d267c81c2f03fc81ff69a5
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 09:55:46 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 09:55:46 +0200
+
+     Updating Jenkinsfile
+
+
+
+:100755 100755 dc992f6c8dbe9b9bf939f9a94de2dc48c70d5e61 75ec5e8997c64a03492f7de4a8fe71fb0e66d8f8 M	Jenkinsfile
+commit 2925c8acb3accaead7d267c81c2f03fc81ff69a5
+tree c027c36fd964a0bc964d3bf5abfbdbf860fad63d
+parent 06fb2c23bedf049bb239afb5b323ec568b2dba90
+author amine@pixalione.com <amine@pixalione.com> 2018-04-16 13:16:29 +0000
+committer amine@pixalione.com <amine@pixalione.com> 2018-04-16 13:16:29 +0000
+
+    Jenkinsfile edited online with Bitbucket
+
+
+
+:100755 100755 c21d4be8574992d3e88ff21045cd296083ac24c0 dc992f6c8dbe9b9bf939f9a94de2dc48c70d5e61 M	Jenkinsfile
+commit 06fb2c23bedf049bb239afb5b323ec568b2dba90
+tree ffa97ba8b873dfadff0091bb651c8b1ab65558f0
+parent 30521acdad06608f9341f49c25521601c9a02ac7
+author amine@pixalione.com <amine@pixalione.com> 2018-04-16 13:06:39 +0000
+committer amine@pixalione.com <amine@pixalione.com> 2018-04-16 13:06:39 +0000
+
+    Jenkinsfile edited online with Bitbucket
+
+
+
+:100755 100755 554c07f51ab94c87950e8c3c8886d3cc7e6d9929 c21d4be8574992d3e88ff21045cd296083ac24c0 M	Jenkinsfile

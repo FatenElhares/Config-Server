@@ -1,0 +1,47 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+Obtained Jenkinsfile from 2925c8acb3accaead7d267c81c2f03fc81ff69a5
+Loading library JenkinsLib@master
+Attempting to resolve master from remote references...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -t https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Found match: refs/heads/master revision e150f5d0b0249bd38c4575a0554a994d5fa29ea9
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://AminePix@bitbucket.org/rdpixalione/config-server.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/rdpixalione/config-server.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/rdpixalione/config-server.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision e150f5d0b0249bd38c4575a0554a994d5fa29ea9 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e150f5d0b0249bd38c4575a0554a994d5fa29ea9
+Commit message: "standardPipeline created online with Bitbucket"
+ > git rev-list --no-walk e150f5d0b0249bd38c4575a0554a994d5fa29ea9 # timeout=10
+[Bitbucket] Notifying commit build result
+ERROR: Library JenkinsLib expected to contain at least one of src or vars directories
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: Loading libraries failed
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1085)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:603)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:581)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:558)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:688)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:700)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:133)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:127)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:557)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:518)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:269)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Finished: FAILURE

@@ -1,0 +1,6 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ docker save stemmer
++ bzip2
++ pv
++ ssh root@213.32.75.99 bunzip2 | docker load
+Loaded image: stemmer:latest

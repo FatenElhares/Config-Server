@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: pgarbe
+Build-Jdk: 1.8.0_162
+Extension-Name: amazon-ecs
+Specification-Title: Jenkins plugin to run dynamic slaves in a Amazon 
+ ECS/Docker environment
+Implementation-Title: amazon-ecs
+Implementation-Version: 1.14
+Group-Id: com.cloudbees.jenkins.plugins
+Short-Name: amazon-ecs
+Long-Name: Amazon EC2 Container Service plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Amazon+EC2+Container+
+ Service+Plugin
+Plugin-Version: 1.14
+Hudson-Version: 1.609
+Jenkins-Version: 1.609
+Plugin-Dependencies: aws-java-sdk:1.11.264,aws-credentials:1.23
+Plugin-Developers: Philipp Garbe:pgarbe:jenkins@garbe.io,Douglas Manle
+ y:tekkamanendless:doug.manley@gmail.com,Jan Roehrich:roehrijn:jan@roe
+ hrich.info
+

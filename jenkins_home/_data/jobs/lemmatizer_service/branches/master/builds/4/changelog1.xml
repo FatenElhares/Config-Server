@@ -1,0 +1,24 @@
+commit 1cffedbe46e57e469e559bd48a694bd1491654e2
+tree 307955ed84d8462a0c1f24786861c71b7e891338
+parent 61a72bb46d11559eb0accedab7fb0227d3af1607
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:26:19 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:26:19 +0200
+
+    Updating Makefile & JenkisFile
+
+
+
+:100755 100755 fe59ee64bcbc647a2f5387c2ff69ee9f8455edae f90f01fb7f131c89e147e67155e3e3477e52c27b M	Jenkinsfile
+:100755 100755 b4fc27597d031beb9024beff3524dacce12eb95e f7898facae6594fa9f63f587504404a59e2798fa M	Makefile
+commit a5f8c5186028188f615fcae041ff2fc05a8a92ab
+tree f44aec9a2cb7ab8cef929cd3a437412f40abb5fe
+parent 1ff218dbafedfa244c55c908aa210a54e1bd57db
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 20:21:22 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 20:21:22 +0200
+
+    Disabling NazaninTest
+
+
+
+:100755 100755 b8decd86214e469023a0a5fa3ae9243e400d3dc2 a306886bee38678b42e97c167f193c0e335f297c M	src/main/java/com/pixalione/monetoring/data_prepropcessing/Controller/TreeTaggerLemmatizerControllerWithCache.java
+:100755 100755 049451bdcf6884616155c4b17f51f55dd8382a8c 3cb6c115f1888c0ef79a87781964ae943ec4ddaf M	src/main/java/com/pixalione/monetoring/data_prepropcessing/Service/TreeTaggerService.java

@@ -1,0 +1,12 @@
+commit b51d0e639d8730258e9123ac6cff7fcfa87ceebc
+tree 0940f90a3e5de1dd7900c4f4200601b925b29856
+parent 2f9cde8b3c2580479d6db92f92e59a2f15118c0c
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 11:10:52 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 11:10:52 +0200
+
+    Add Cache to EndPoints
+
+
+
+:100755 100755 eba2515a9f2ccf495f05ac948dbff2d733f82c73 46afb8e9eeb168ccc601e08b6a463d287f38d764 M	src/main/java/com/pixalione/monetoring/data_preprocessing/BrandDetectionApplication.java
+:100755 100755 377c3819890a4b0ddbb7d8ce2159b873df4bcb5c 3e09e399e635c1720faf07c1e28bb5493e4e9947 M	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/BrandDetectionController.java

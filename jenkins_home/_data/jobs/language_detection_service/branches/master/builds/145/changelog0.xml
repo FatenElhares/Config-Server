@@ -1,0 +1,12 @@
+commit 219f81924115317b5344fecc1a6cdab9eda969c7
+tree 4c2c80c06e1c83496be4b4ac7d7f1957cfce2cbb
+parent 3774be15165489118e49ffc8161882e956496470
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:16:41 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:16:41 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 a234659d421ae833cf042ee6bb1f8fbb5d4085b4 be95cc9d8bf41ff646fc6ef6f0593cb61401f952 M	.idea/workspace.xml
+:100755 100755 fede5480bbca5ff8b0a27056093371a156dbacf4 81bde79289dedeac8ed8d56fbcbc1b2665431caa M	vars/standardPipeline.groovy

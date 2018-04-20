@@ -1,0 +1,43 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git init /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 7f7617ee856da1d88582ece69493077bd25bdf3a (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7f7617ee856da1d88582ece69493077bd25bdf3a
+Commit message: " Update Makefile"
+ > git rev-list --no-walk 7f7617ee856da1d88582ece69493077bd25bdf3a # timeout=10
+[Bitbucket] Notifying commit build result
+ERROR: Could not send notifications
+com.cloudbees.jenkins.plugins.bitbucket.api.BitbucketRequestException: HTTP request error. Status: 500: Internal Server Error.
+HttpResponseProxy{HTTP/1.1 500 Internal Server Error [Server: nginx, Vary: Authorization, Content-Type: application/json; charset=utf-8, Strict-Transport-Security: max-age=31536000; includeSubDomains; preload, Date: Wed, 18 Apr 2018 07:39:50 GMT, X-Served-By: app-143, X-Sentry-ID: 4a1baf461f4e4c47bb9c1854a88aef53, ETag: "6a1649754c445042cd220cad08861ae6", X-Static-Version: c9503a56bac6, X-Accepted-OAuth-Scopes: repository, X-Credential-Type: password, X-Render-Time: 1.09022593498, Connection: close, X-Request-Count: 463, X-Frame-Options: SAMEORIGIN, X-Version: c9503a56bac6, Content-Length: 105] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 105,Chunked: false]}}
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.doRequest(BitbucketCloudApiClient.java:762)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.postRequest(BitbucketCloudApiClient.java:812)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.postBuildStatus(BitbucketCloudApiClient.java:530)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketChangesetCommentNotifier.buildStatus(BitbucketChangesetCommentNotifier.java:51)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications.createStatus(BitbucketBuildStatusNotifications.java:93)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications.sendNotifications(BitbucketBuildStatusNotifications.java:122)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications.access$000(BitbucketBuildStatusNotifications.java:55)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications$JobCheckOutListener.onCheckout(BitbucketBuildStatusNotifications.java:150)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:127)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:85)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:75)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate(ACL.java:290)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

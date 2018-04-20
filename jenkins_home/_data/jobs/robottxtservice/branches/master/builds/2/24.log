@@ -1,0 +1,6 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ make push
+[1;33m=> Pushing Robot txt Docker Image ...
+[0mLoaded image: robottxt:latest
+[1;33m=> Stage Test and Build Complete
+[0m

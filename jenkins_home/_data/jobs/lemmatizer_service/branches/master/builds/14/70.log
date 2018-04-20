@@ -1,0 +1,25 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ mvn sonar:sonar -Dsonar.host.url=http://213.32.75.99:9000 -Dsonar.login=4f71b9d7d33b0f4e07d40d3acc7c26dad5e95fdc
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building pixalione 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ lemmatizer ---
+[INFO] User cache: /root/.sonar/cache
+[ERROR] SonarQube server [http://213.32.75.99:9000] can not be reached
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.477 s
+[INFO] Finished at: 2018-04-20T09:45:46+00:00
+[INFO] Final Memory: 24M/375M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.4.0.905:sonar (default-cli) on project lemmatizer: Unable to execute SonarQube: Fail to get bootstrap index from server: Failed to connect to /213.32.75.99:9000: Connection refused (Connection refused) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

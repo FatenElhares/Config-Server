@@ -1,0 +1,59 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/stemmer_service.git
+ > git init /var/jenkins_home/workspace/stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/stemmer_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/stemmer_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/stemmer_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/stemmer_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/stemmer_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/stemmer_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 9e464101e514b7d6f81ea8392c97685eaee9d1cc (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9e464101e514b7d6f81ea8392c97685eaee9d1cc
+Commit message: "Updating JenkisFile & Makefile"
+ > git rev-list --no-walk 9e464101e514b7d6f81ea8392c97685eaee9d1cc # timeout=10
+[Bitbucket] Notifying commit build result
+ERROR: Could not send notifications
+java.io.IOException: Communication error
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.doRequest(BitbucketCloudApiClient.java:771)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.postRequest(BitbucketCloudApiClient.java:812)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.postBuildStatus(BitbucketCloudApiClient.java:530)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketChangesetCommentNotifier.buildStatus(BitbucketChangesetCommentNotifier.java:51)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications.createStatus(BitbucketBuildStatusNotifications.java:93)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications.sendNotifications(BitbucketBuildStatusNotifications.java:122)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications.access$000(BitbucketBuildStatusNotifications.java:55)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketBuildStatusNotifications$JobCheckOutListener.onCheckout(BitbucketBuildStatusNotifications.java:150)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:127)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:85)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:75)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate(ACL.java:290)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.NoHttpResponseException: api.bitbucket.org:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.executeMethod(BitbucketCloudApiClient.java:669)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.doRequest(BitbucketCloudApiClient.java:753)
+	... 18 more

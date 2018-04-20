@@ -1,0 +1,6 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ [[ ssh root@213.32.75.99 docker images -f dangling=true -q
+/var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-d1c7d65b/script.sh: 2: /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-d1c7d65b/script.sh: [[: not found
++ xargs docker rmi -ne 0 ]]
+unknown shorthand flag: 'n' in -ne
+See 'docker rmi --help'.

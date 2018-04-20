@@ -1,0 +1,3 @@
+[nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7070:7070 cleanningcontent
+780f1b9603886b67ab765d3998ad71a55a377dce6352fed2f1ca755f7b79b962

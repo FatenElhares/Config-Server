@@ -1,0 +1,25 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ mvn compile
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building pixalione 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lemmatizer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ lemmatizer ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA/target/classes
+[WARNING] /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA/src/main/java/com/pixalione/monetoring/data_prepropcessing/Service/TreeTaggerService.java: /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA/src/main/java/com/pixalione/monetoring/data_prepropcessing/Service/TreeTaggerService.java uses unchecked or unsafe operations.
+[WARNING] /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA/src/main/java/com/pixalione/monetoring/data_prepropcessing/Service/TreeTaggerService.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.359 s
+[INFO] Finished at: 2018-04-19T09:01:38+00:00
+[INFO] Final Memory: 29M/555M
+[INFO] ------------------------------------------------------------------------

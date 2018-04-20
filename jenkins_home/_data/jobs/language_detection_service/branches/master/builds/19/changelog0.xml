@@ -1,0 +1,11 @@
+commit fd4c5c3905f5627030a507a0f3211a4558a67396
+tree 6e2445a7025d86fd87f888a1c211df3f9397a46f
+parent 5d5418728da9ca3d1b3766513643653ec5de7fad
+author amine@pixalione.com <amine@pixalione.com> 2018-04-16 11:39:17 +0000
+committer amine@pixalione.com <amine@pixalione.com> 2018-04-16 11:39:17 +0000
+
+    Jenkinsfile edited online with Bitbucket
+
+
+
+:100755 100755 2710f0408ba1ac812cefa11ff3d062aa3e61af14 3ac28a49f0f7a522b8c830418a8118cfa1db36e3 M	Jenkinsfile

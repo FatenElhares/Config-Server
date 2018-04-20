@@ -1,0 +1,13 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+[Tue Apr 17 17:29:47 UTC 2018] Starting branch indexing...
+Connecting to https://bitbucket.org using amine@pixalione.com/****** (Bitbucket server credentials)
+Repository type: Git
+Looking up rdpixalione/language_detection_service for branches
+Checking branch master from rdpixalione/language_detection_service
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 7f7617ee856da1d88582ece69493077bd25bdf3a)
+
+  1 branches were processed
+[Tue Apr 17 17:29:48 UTC 2018] Finished branch indexing. Indexing took 0.78 sec
+Finished: SUCCESS

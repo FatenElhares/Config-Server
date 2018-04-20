@@ -1,0 +1,6 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ ssh+  root@213.32.75.99 bunzip2 | docker load
+docker save lemmatizer
++ + bzip2
+pv
+Loaded image: lemmatizer:latest

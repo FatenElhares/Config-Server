@@ -1,0 +1,96 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@2.27">
+    <parentIds/>
+    <id>2</id>
+  </node>
+  <actions>
+    <wf.a.ErrorAction plugin="workflow-api@2.27">
+      <error class="hudson.remoting.ProxyException">
+        <detailMessage>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/var/jenkins_home/jobs/language_detection_service/branches/master/builds/121/libs/rdpixalione/config-server/vars/standardPipeline.groovy: 49: unable to resolve class exception 
+ @ line 49, column 18.
+                   }catch (exception exception){
+                    ^
+
+1 error
+</detailMessage>
+        <stackTrace>
+          <trace>org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310)</trace>
+          <trace>org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:958)</trace>
+          <trace>org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:605)</trace>
+          <trace>org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:554)</trace>
+          <trace>groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)</trace>
+          <trace>groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)</trace>
+          <trace>groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:254)</trace>
+          <trace>groovy.lang.GroovyClassLoader.recompile(GroovyClassLoader.java:761)</trace>
+          <trace>groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:718)</trace>
+          <trace>groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:787)</trace>
+          <trace>java.lang.ClassLoader.loadClass(ClassLoader.java:411)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsGroovyShell$TimingLoader.loadClass(CpsGroovyShell.java:160)</trace>
+          <trace>java.lang.ClassLoader.loadClass(ClassLoader.java:411)</trace>
+          <trace>groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:677)</trace>
+          <trace>groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:787)</trace>
+          <trace>groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:775)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.global.UserDefinedGlobalVariable.getValue(UserDefinedGlobalVariable.java:54)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:99)</trace>
+          <trace>sun.reflect.GeneratedMethodAccessor633.invoke(Unknown Source)</trace>
+          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+          <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+          <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+          <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)</trace>
+          <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+          <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:157)</trace>
+          <trace>org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)</trace>
+          <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:133)</trace>
+          <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:120)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)</trace>
+          <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:159)</trace>
+          <trace>com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)</trace>
+          <trace>WorkflowScript.run(WorkflowScript:2)</trace>
+          <trace>___cps.transform___(Native Method)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:57)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:109)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:82)</trace>
+          <trace>sun.reflect.GeneratedMethodAccessor517.invoke(Unknown Source)</trace>
+          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+          <trace>com.cloudbees.groovy.cps.impl.ClosureBlock.eval(ClosureBlock.java:46)</trace>
+          <trace>com.cloudbees.groovy.cps.Next.step(Next.java:83)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:122)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:261)</trace>
+          <trace>com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$101(SandboxContinuable.java:34)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.lambda$run0$0(SandboxContinuable.java:59)</trace>
+          <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:108)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:58)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:174)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:332)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$200(CpsThreadGroup.java:83)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:244)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:232)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:131)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

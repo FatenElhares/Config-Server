@@ -1,0 +1,31 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://AminePix@bitbucket.org/heni1234/search_engine_service.git
+ > git init /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ # timeout=10
+Fetching upstream changes from https://AminePix@bitbucket.org/heni1234/search_engine_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/heni1234/search_engine_service.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://AminePix@bitbucket.org/heni1234/search_engine_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://AminePix@bitbucket.org/heni1234/search_engine_service.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+No valid HEAD. Skipping the resetting
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/heni1234/search_engine_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/heni1234/search_engine_service.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 0d221ff6b907a38569eb43133fb670a3dd4b644f (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0d221ff6b907a38569eb43133fb670a3dd4b644f
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 0d221ff6b907a38569eb43133fb670a3dd4b644f
+Commit message: "Delete Makefile"
+ > git rev-list --no-walk c664edd972bcc523729defd78bafd514fe501050 # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10

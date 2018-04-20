@@ -1,0 +1,5 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=lemmatizer --format={{.ID}}
++ xargs+  docker stop
+xargs docker rm -f
+0891bb81e9a2

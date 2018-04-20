@@ -1,0 +1,3 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7073:7073 lemmatizer:null
+219674bccadaecb8fc07b59e7116bf85d82505ca01f231b99b64d24b938fa45f

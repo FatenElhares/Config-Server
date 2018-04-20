@@ -1,0 +1,100 @@
+[keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA] Running shell script
++ make SonarTest
+[1;33m=> Testing With Sonar Server ...
+[0m[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building keyword-relevancy 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.monetoring.framework:monetoring-framework-center:jar:1.0 is missing, no dependency information available
+[WARNING] The artifact xerces:xerces:jar:2.4.0 has been relocated to xerces:xercesImpl:jar:2.4.0
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ keyword-relevancy ---
+[INFO] User cache: /root/.sonar/cache
+[INFO] SonarQube version: 7.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Publish mode
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=86ms
+[INFO] Server id: AWLNpaenYXGBWF_7PvT0
+[INFO] User cache: /root/.sonar/cache
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=96ms
+[INFO] Load/download plugins
+[INFO] Load/download plugins (done) | time=32ms
+[INFO] Process project properties
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=28ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=48ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=590ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=31ms
+[INFO] Project key: com.pixalione.refact:keyword-relevancy
+[INFO] -------------  Scan keyword-relevancy
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=71ms
+[INFO] Base dir: /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA
+[INFO] Working dir: /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA/target/sonar
+[INFO] Source paths: pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en
+[INFO] Index files
+[INFO] 161 files indexed
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=16ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=5ms
+[INFO] Java Main Files AST scan
+[INFO] 87 source files to be analyzed
+[INFO] 12/87 files analyzed, current file: /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA/src/main/java/com/pixalione/old/keywordrelevancy/src/kw_relevancy_google/Preprocess_titles.java
+[WARNING] Invalid character encountered in file /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA/src/main/java/com/pixalione/old/keywordrelevancy/src/utilities/Mark_Replacement.java at line 51 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+[WARNING] Invalid character encountered in file /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA/src/main/java/com/pixalione/old/keywordrelevancy/src/utilities/Mark_Replacement_2.java at line 403 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+[INFO] 51/87 files analyzed, current file: /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA/src/main/java/com/pixalione/old/keywordrelevancy/src/utilities/StringDiff.java
+[INFO] Java Main Files AST scan (done) | time=22650ms
+[INFO] 87/87 source files have been analyzed
+[INFO] Java Test Files AST scan
+[INFO] 6 source files to be analyzed
+[INFO] 6/6 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=154ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=23440ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=3ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=2ms
+[INFO] Sensor SonarJavaXmlFileSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor SonarJavaXmlFileSensor [java] (done) | time=463ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=167ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=102ms
+[INFO] Sensor CPD Block Indexer
+[INFO] Sensor CPD Block Indexer (done) | time=190ms
+[INFO] SCM provider for this project is: git
+[INFO] 94 files to be analyzed
+[INFO] 94/94 files analyzed
+[INFO] 20 files had no CPD blocks
+[INFO] Calculating CPD for 67 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 339ms, dir size=1 MB
+[INFO] Analysis reports compressed in 243ms, zip size=609 KB
+[INFO] Analysis report uploaded in 330ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://213.32.75.99:9000/dashboard/index/com.pixalione.refact:keyword-relevancy
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://213.32.75.99:9000/api/ce/task?id=AWLUMzUVgr_boLqFP8W3
+[INFO] Task total time: 28.912 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 31.698 s
+[INFO] Finished at: 2018-04-17T15:22:28+00:00
+[INFO] Final Memory: 63M/1649M
+[INFO] ------------------------------------------------------------------------

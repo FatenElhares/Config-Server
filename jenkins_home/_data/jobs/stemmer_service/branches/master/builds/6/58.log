@@ -1,0 +1,3 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7074:7074 stemmer
+46599c3b758f64bfe0451af6b9e274eedec7de4d9eb02e86606ce6bd78600692

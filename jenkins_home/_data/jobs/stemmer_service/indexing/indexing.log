@@ -1,0 +1,15 @@
+Started
+[Tue Apr 17 14:06:17 UTC 2018] Starting branch indexing...
+Connecting to https://bitbucket.org using amine@pixalione.com/****** (Bitbucket server credentials)
+Repository type: Git
+Looking up rdpixalione/stemmer_service for branches
+Checking branch master from rdpixalione/stemmer_service
+      ‘Jenkinsfile’ found
+    Met criteria
+Takeover for [8mha:////4F0OXMiWg/jmJqZasMysd5M69yiJsL7RohhQkiaywdGkAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYF/az8JP3iktTc3NSi+OLUorLM5FSwWG4iULRIHwBbH61j1QAAAA==[0mstemmer_service » master by source #1 from source that no longer exists
+Branch reopened: master (9e464101e514b7d6f81ea8392c97685eaee9d1cc)
+Scheduled build for branch: master
+
+  1 branches were processed
+[Tue Apr 17 14:06:19 UTC 2018] Finished branch indexing. Indexing took 1.9 sec
+Finished: SUCCESS

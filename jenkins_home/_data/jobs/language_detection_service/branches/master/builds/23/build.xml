@@ -1,0 +1,81 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.19">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.19"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.5.0">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/language_detection_service/detail/master/23</mappedUrl>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.6">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.8.0">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead" plugin="cloudbees-bitbucket-branch-source@2.2.10">
+          <name>master</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>30521acdad06608f9341f49c25521601c9a02ac7</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>77</queueId>
+  <timestamp>1523883744731</timestamp>
+  <startTime>1523883744735</startTime>
+  <result>FAILURE</result>
+  <duration>2838</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>#!groovy
+
+def jenkinsFile
+node {
+    stage(&quot;Loading Jenkins file&quot;) {
+        jenkinsFile = fileLoader.fromGit(&apos;config-server/Jenkinsfile&apos;, &apos;https://AminePix@bitbucket.org/rdpixalione/language_detection_service.git&apos;, &apos;master&apos;, &apos;amine@pixalione.com&apos;,  &apos;&apos;)
+        sh &quot;echo test jenkins groovy&quot;
+    }
+}
+jenkinsFile.start()
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>139364418</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>50970648</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>377781602</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>49983798</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>29525429</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>22</iota>
+    <head>1:22</head>
+    <done>false</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

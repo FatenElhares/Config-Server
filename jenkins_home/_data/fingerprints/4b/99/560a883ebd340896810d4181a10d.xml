@@ -1,0 +1,57 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-04-16 13:07:26.261 UTC</timestamp>
+  <md5sum>4b99560a883ebd340896810d4181a10d</md5sum>
+  <fileName>Credential id=f0d85a8c-c34b-45fa-8b09-5c94d49af342 name=amine@pixalione.com/******</fileName>
+  <usages>
+    <entry>
+      <string>robottxtservice/master</string>
+      <ranges>4-36</ranges>
+    </entry>
+    <entry>
+      <string>html_parser_service/master</string>
+      <ranges>2-12</ranges>
+    </entry>
+    <entry>
+      <string>brand_detection_service/master</string>
+      <ranges>4-17</ranges>
+    </entry>
+    <entry>
+      <string>search_engine_service/master</string>
+      <ranges>1-9</ranges>
+    </entry>
+    <entry>
+      <string>lemmatizer_service/master</string>
+      <ranges>4-10,12-14</ranges>
+    </entry>
+    <entry>
+      <string>cleanningcontent_service/master</string>
+      <ranges>2-9</ranges>
+    </entry>
+    <entry>
+      <string>keyword-relevancy-final/origin</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>language_detection_service/master</string>
+      <ranges>25-159</ranges>
+    </entry>
+    <entry>
+      <string>origin</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>keyword-relevancy-final/master</string>
+      <ranges>1-3</ranges>
+    </entry>
+    <entry>
+      <string>stemmer_service/master</string>
+      <ranges>2-6</ranges>
+    </entry>
+    <entry>
+      <string>keyword-relevancy/master</string>
+      <ranges>1-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,10 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=Project2 --format={{.ID}}
++ xargs docker stop
++ xargs docker rm -f
+"docker rm" requires at least 1 argument(s).
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+Remove one or more containers

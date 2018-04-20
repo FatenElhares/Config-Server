@@ -1,0 +1,8 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ [[ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=languagedetection --format={{.ID}}
+/var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-98816ba0/script.sh: 2: /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-98816ba0/script.sh: [[: not found
++ + xargsxargs docker stop
+ docker rm -f != 0 ]]
+0
+Error response from daemon: No such container: !=
+Error response from daemon: No such container: ]]

@@ -1,0 +1,34 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+[Wed Apr 18 07:26:59 UTC 2018] Starting branch indexing...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git ls-remote --symref https://AminePix@bitbucket.org/heni1234/search_engine_service.git # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://AminePix@bitbucket.org/heni1234/search_engine_service.git
+ > git config remote.origin.url https://AminePix@bitbucket.org/heni1234/search_engine_service.git # timeout=10
+Fetching & pruning origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/* --prune
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git ls-remote -h https://AminePix@bitbucket.org/heni1234/search_engine_service.git # timeout=10
+Checking branches...
+  Checking branch couchbase
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch elasticData
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch master
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+  Checking branch DatabaseLess
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+Processed 4 branches
+[Wed Apr 18 07:27:04 UTC 2018] Finished branch indexing. Indexing took 4.5 sec
+Finished: SUCCESS

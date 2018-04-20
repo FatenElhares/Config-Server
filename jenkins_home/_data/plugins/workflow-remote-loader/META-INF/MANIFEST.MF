@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: escoem
+Build-Jdk: 1.8.0_60
+Extension-Name: workflow-remote-loader
+Specification-Title: Allows loading Pipeline scripts from remote locat
+ ions (enhanced version of the built-in load command)
+Implementation-Title: workflow-remote-loader
+Implementation-Version: 1.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: workflow-remote-loader
+Long-Name: Jenkins Pipeline Remote Loader Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Remote+Loade
+ r+Plugin
+Plugin-Version: 1.4
+Hudson-Version: 1.609.1
+Jenkins-Version: 1.609.1
+Plugin-Dependencies: workflow-aggregator:1.11
+Plugin-Developers: Oleg Nenashev:oleg_nenashev:o.v.nenashev@gmail.com,
+ Emilio Escobar:escoem:
+

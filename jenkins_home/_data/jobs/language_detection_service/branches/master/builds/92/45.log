@@ -1,0 +1,8 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ docker save languagedetection
++ bzip2
++ pv
++ bunzip2
++ docker load
++ ssh root@213.32.75.99 Loaded image: languagedetection:latest
+bash: Loaded: command not found

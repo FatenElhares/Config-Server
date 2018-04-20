@@ -1,0 +1,16 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:b8568b71d70f65c6eac3717f85488445bcfb01eb35edfa880084dafb5a81fb89
+Deleted: sha256:030d33d0d9163a533bbd1eac7b2a7c87101862625ba70ed6b38dc622109272aa
+Deleted: sha256:eb984fcb4b7de7375d7bf8ecca8738ba7a15894ab25506ff52d2b0c47b8e230e
+Deleted: sha256:2f063d28c4552d682cae512a1878889968a635d0503c31604fee7ae80990b9f7
+Deleted: sha256:642579322c2b86d9913c9ae401bfcf98b2f65b29daf19db076314684c2248f9d
+Deleted: sha256:cd1cad98b6bafc4b7b67290405e036fa0252f624c874ec8eb67359f6ee0baac9
+Deleted: sha256:af82a36b51ceac184ad44dc1829bb8432cba2216bfc93f172c2bc02b16aa6b6f
+Deleted: sha256:214eeb9f0ac0fa8a27122bfc4a5285644671889bdebdf4f63f93d4fb5ba5fc9f
+Deleted: sha256:6a2f1de61bf9277ced383656a74d3c9f5d7eb86e259dd963971420970c90156d
+Deleted: sha256:058423e65d73a875c3cdbe31a42829e3d8c75e4fe763bdb24a13368fe38f48e3
+Error response from daemon: conflict: unable to delete 285f598ecafa (cannot be forced) - image is being used by running container 90535ec3ce56
+Makefile:38: recipe for target 'clean' failed
+make: *** [clean] Error 123

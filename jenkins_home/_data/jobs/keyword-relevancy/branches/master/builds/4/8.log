@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git
+ > git init /var/jenkins_home/workspace/keyword-relevancy_master-FJG7XIFVQH3LEIKUG43GH7YSKIWDW4BUVXPPNQPTFMP3IHYSAJBA@2 # timeout=10
+Fetching upstream changes from https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://AminePix@bitbucket.org/abhamza/keyword-relevancy.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision d8d754a3c3fa4599f3af6a2dc8a14a3c33eaa195 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d8d754a3c3fa4599f3af6a2dc8a14a3c33eaa195
+Commit message: " Config pipeline"
+ > git rev-list --no-walk 1b44451347884592ab3bfe95d9d5db5931b908a0 # timeout=10

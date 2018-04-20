@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/cleanningcontent_service.git
+ > git init /var/jenkins_home/workspace/nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/cleanningcontent_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/cleanningcontent_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/cleanningcontent_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/cleanningcontent_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/cleanningcontent_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/cleanningcontent_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision a841c3bb797cd3aa8f1d2549b524f1739a12d8fc (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a841c3bb797cd3aa8f1d2549b524f1739a12d8fc
+Commit message: "Updating Makefile"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result

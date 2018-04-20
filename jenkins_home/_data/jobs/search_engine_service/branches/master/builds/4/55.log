@@ -1,0 +1,3 @@
+[earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 9091:9091 searchengine:0.1
+9dd5e27faf4032159cab576fe85b36367bf4d93a527e0ee72cfb5e69a8f8cff4

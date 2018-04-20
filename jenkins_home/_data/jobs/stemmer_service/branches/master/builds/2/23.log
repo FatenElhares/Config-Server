@@ -1,0 +1,102 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ make SonarTest
+[1;33m=> Testing With Sonar Server ...
+[0m[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.pixalione.monetoring.data_preprocessing:stemmer:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-test:jar -> duplicate declaration of version (?) @ line 52, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building pixalione 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ stemmer ---
+[INFO] User cache: /root/.sonar/cache
+[INFO] SonarQube version: 7.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Publish mode
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=79ms
+[INFO] Server id: AWLNpaenYXGBWF_7PvT0
+[INFO] User cache: /root/.sonar/cache
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=72ms
+[INFO] Load/download plugins
+[INFO] Load/download plugins (done) | time=12ms
+[INFO] Process project properties
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=21ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=55ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=678ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=30ms
+[INFO] Project key: com.pixalione.monetoring.data_preprocessing:stemmer
+[INFO] -------------  Scan pixalione
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=62ms
+[INFO] Base dir: /var/jenkins_home/workspace/stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q
+[INFO] Working dir: /var/jenkins_home/workspace/stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q/target/sonar
+[INFO] Source paths: pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en
+[INFO] Index files
+[INFO] 16 files indexed
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=16ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=15ms
+[INFO] Java Main Files AST scan
+[INFO] 12 source files to be analyzed
+[INFO] Java Main Files AST scan (done) | time=2962ms
+[INFO] 12/12 source files have been analyzed
+[INFO] Java Test Files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] 3/3 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=141ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=3836ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=3ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[INFO] Sensor SonarJavaXmlFileSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor SonarJavaXmlFileSensor [java] (done) | time=495ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml]
+[INFO] Sensor XML Sensor [xml] (done) | time=184ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=58ms
+[INFO] Sensor CPD Block Indexer
+[INFO] Sensor CPD Block Indexer (done) | time=73ms
+[INFO] SCM provider for this project is: git
+[INFO] 16 files to be analyzed
+[INFO] 16/16 files analyzed
+[INFO] 2 files had no CPD blocks
+[INFO] Calculating CPD for 10 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 173ms, dir size=161 KB
+[INFO] Analysis reports compressed in 48ms, zip size=64 KB
+[INFO] Analysis report uploaded in 265ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://213.32.75.99:9000/dashboard/index/com.pixalione.monetoring.data_preprocessing:stemmer
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://213.32.75.99:9000/api/ce/task?id=AWLT7gGrgr_boLqFP8Ww
+[INFO] Task total time: 8.899 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.372 s
+[INFO] Finished at: 2018-04-17T14:06:53+00:00
+[INFO] Final Memory: 51M/1031M
+[INFO] ------------------------------------------------------------------------

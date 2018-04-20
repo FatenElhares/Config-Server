@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-BranchIndexing plugin="branch-api@2.0.19">
+  <actions>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.5">
+      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
+        <mappedUrl>blue/organizations/jenkins/pipelines/</mappedUrl>
+        <modelObject class="hudson.model.Queue$WaitingItem">
+          <actions>
+            <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction reference="../../../.."/>
+          </actions>
+          <id>130</id>
+          <task class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" resolves-to="hudson.model.AbstractItem$Replacer" plugin="workflow-multibranch@2.16">
+            <fullName>html_parser_service</fullName>
+          </task>
+          <inQueueSince>1523959834341</inQueueSince>
+          <timestamp>
+            <time>1523959834341</time>
+            <timezone>Etc/UTC</timezone>
+          </timestamp>
+        </modelObject>
+      </blueOceanUrlObject>
+    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction reference="../io.jenkins.blueocean.service.embedded.BlueOceanUrlAction"/>
+  </actions>
+  <result>
+    <name>SUCCESS</name>
+    <ordinal>0</ordinal>
+    <color>BLUE</color>
+    <completeBuild>true</completeBuild>
+  </result>
+  <durations>
+    <long>908</long>
+  </durations>
+  <timestamp>1523959834354</timestamp>
+  <duration>908</duration>
+</jenkins.branch.MultiBranchProject_-BranchIndexing>

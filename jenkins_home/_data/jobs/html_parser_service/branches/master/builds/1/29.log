@@ -1,0 +1,11 @@
+[html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:faa8de3595e6c5ce0d97ed86131ae745126fcfa99f407d7087a88cc666e9db9a
+Deleted: sha256:4b336b7e3ddc58e574be4865820d686e371a6a8205db0e7e78733d336a53405b
+Deleted: sha256:0a9b76caaca4107d203d10279614ad773a8b67df665ba8d15427a7c746174c3d
+Deleted: sha256:a5b58d9a928e316bc2bc4fa925566468dfa0a8037f85d1ea53929676ae79cc41
+Deleted: sha256:f37be183f0988b865edeb1ca94a3c2939db6eddcffb58a1a2b819e80ae3af10e
+Deleted: sha256:4a7bdaa63c0e87aaf811297fdbecb2e06ef94d01ece3bd8d2e6b3f1b8c521d43
+[1;33m=> Clean Complete
+[0m

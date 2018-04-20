@@ -1,0 +1,59 @@
+commit 038357339291d337e079438c7fdc3b06b2db044d
+tree 20a0693d611a4cd6a611457bcf7f5f44caea3088
+parent 219f81924115317b5344fecc1a6cdab9eda969c7
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:20:40 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:20:40 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 be95cc9d8bf41ff646fc6ef6f0593cb61401f952 4208893090e868176dc8e576acd9225aadc05bb2 M	.idea/workspace.xml
+:100755 100755 81bde79289dedeac8ed8d56fbcbc1b2665431caa cefe2c4bda383ccd7f64476d5d60df9785d4f11e M	vars/standardPipeline.groovy
+commit 219f81924115317b5344fecc1a6cdab9eda969c7
+tree 4c2c80c06e1c83496be4b4ac7d7f1957cfce2cbb
+parent 3774be15165489118e49ffc8161882e956496470
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:16:41 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:16:41 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 a234659d421ae833cf042ee6bb1f8fbb5d4085b4 be95cc9d8bf41ff646fc6ef6f0593cb61401f952 M	.idea/workspace.xml
+:100755 100755 fede5480bbca5ff8b0a27056093371a156dbacf4 81bde79289dedeac8ed8d56fbcbc1b2665431caa M	vars/standardPipeline.groovy
+commit 3774be15165489118e49ffc8161882e956496470
+tree 9ed86ebf7380f1a8c5102d726ce0d3a6941793a3
+parent 8e2ec2a4dd33cd556e1b71f5c6632d9b8d4bd39c
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:12:48 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:12:48 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 06d6125a468e080e2dc654f13b9396710a514313 fede5480bbca5ff8b0a27056093371a156dbacf4 M	vars/standardPipeline.groovy
+commit 8e2ec2a4dd33cd556e1b71f5c6632d9b8d4bd39c
+tree fc18d21764195614bdb8252c6f8ab22a620b8140
+parent 4f0b2f4e08d02e64d55e13c6d4897f2cc60a095c
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:09:40 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 11:09:40 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 cb883a8a868ce9245e2837ab90a4a3604bcd3811 a234659d421ae833cf042ee6bb1f8fbb5d4085b4 M	.idea/workspace.xml
+:100755 100755 48c25cb4c0389684a19098118083890124a01546 06d6125a468e080e2dc654f13b9396710a514313 M	vars/standardPipeline.groovy
+commit 4f0b2f4e08d02e64d55e13c6d4897f2cc60a095c
+tree dcd8ea4dece2b78bec3296534bf6995059328ae0
+parent 271ead9564d4dd7d3e9e00d4b10a0dbca7650584
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 10:58:29 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-19 10:58:29 +0200
+
+    Adding Pre-prod stages
+
+
+
+:100755 100755 1c8014bc18cb4bac57f26f48044999b111f55e38 cb883a8a868ce9245e2837ab90a4a3604bcd3811 M	.idea/workspace.xml
+:100755 100755 1350e75ea6d530e8b9fa9c284a20b14a6951f6d1 48c25cb4c0389684a19098118083890124a01546 M	vars/standardPipeline.groovy

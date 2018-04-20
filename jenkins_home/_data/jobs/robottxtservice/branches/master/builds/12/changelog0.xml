@@ -1,0 +1,12 @@
+commit 8fe57201f79a6f25dab548008dda5385771d840e
+tree bceddd180f8d9f00076bf62ffdcfdcd192e1f549
+parent 56989e6340c958bc33ba3095346885e27f63edd6
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 17:48:21 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 17:48:21 +0200
+
+     Update Config
+
+
+
+:100755 100755 fdca2dd58925500c068424e080d6a0685cc2d170 91d04a4d45c499cb81a74d9ab52dba10e1fba616 M	.idea/workspace.xml
+:100755 100755 ec2a05411df4540f6b0511686c99cda177e3cefc 9de8061e300d3563112156ef46a7254f6c1db529 M	vars/standardPipeline.groovy

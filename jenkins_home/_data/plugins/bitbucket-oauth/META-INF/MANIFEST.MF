@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: osuka
+Build-Jdk: 1.8.0_65
+Extension-Name: bitbucket-oauth
+Specification-Title: A Jenkins authentication plugin that delegates to
+  Bitbucket OAuth
+Implementation-Title: bitbucket-oauth
+Implementation-Version: 0.6
+Group-Id: org.jenkins-ci.plugins
+Short-Name: bitbucket-oauth
+Long-Name: Bitbucket OAuth Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Bitbucket+OAuth+Plugin
+Compatible-Since-Version: 0.3
+Plugin-Version: 0.6
+Hudson-Version: 1.645
+Jenkins-Version: 1.645
+Plugin-Developers: mallowlabs:mallowlabs:mallowlabs@gmail.com
+

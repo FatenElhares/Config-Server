@@ -1,0 +1,12 @@
+commit dd498a5f6268f67662632130ec0f3358f354334e
+tree 2b0d86912f8f5cab13ee4493204876c2d357721a
+parent 1857971ca9cfe07a2acfc3a90343637bf65b3c85
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 11:39:21 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 11:39:21 +0200
+
+    Adding shell Commands
+
+
+
+:100755 100755 f5d5f3828810d4bdbf842651731e943fda3f7b6f c24156c81cdba6691855b3eb6848442824696f3b M	.idea/workspace.xml
+:100755 100755 24f15bb52124f45a2407ec8401bbf4bd0c10ad22 83e25dfb592a1c2bc02baeef15d2697257792f2b M	vars/standardPipeline.groovy

@@ -1,0 +1,85 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject plugin="workflow-multibranch@2.16">
+  <actions/>
+  <description></description>
+  <properties>
+    <org.jenkinsci.plugins.workflow.libs.FolderLibraries plugin="workflow-cps-global-lib@2.9">
+      <libraries>
+        <org.jenkinsci.plugins.workflow.libs.LibraryConfiguration>
+          <name>rdpixalione/config-server</name>
+          <retriever class="org.jenkinsci.plugins.workflow.libs.SCMSourceRetriever">
+            <scm class="jenkins.plugins.git.GitSCMSource" plugin="git@3.8.0">
+              <id>b6b26aca-062b-4003-b514-4862bbf96ba1</id>
+              <remote>https://AminePix@bitbucket.org/rdpixalione/config-server.git</remote>
+              <credentialsId>f0d85a8c-c34b-45fa-8b09-5c94d49af342</credentialsId>
+              <traits>
+                <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
+              </traits>
+            </scm>
+          </retriever>
+          <defaultVersion>master</defaultVersion>
+          <implicit>false</implicit>
+          <allowVersionOverride>true</allowVersionOverride>
+          <includeInChangesets>true</includeInChangesets>
+        </org.jenkinsci.plugins.workflow.libs.LibraryConfiguration>
+      </libraries>
+    </org.jenkinsci.plugins.workflow.libs.FolderLibraries>
+    <io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanCredentialsProvider_-FolderPropertyImpl plugin="blueocean-pipeline-scm-api@1.3.5">
+      <domain plugin="credentials@2.1.16">
+        <name>blueocean-folder-credential-domain</name>
+        <description>Blue Ocean Folder Credentials domain</description>
+        <specifications/>
+      </domain>
+      <user>amine@pixalione.com</user>
+      <id>bitbucket-cloud</id>
+    </io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanCredentialsProvider_-FolderPropertyImpl>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.config.FolderConfig plugin="pipeline-model-definition@1.2.7">
+      <dockerLabel></dockerLabel>
+      <registry plugin="docker-commons@1.11"/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.config.FolderConfig>
+  </properties>
+  <folderViews class="jenkins.branch.MultiBranchProjectViewHolder" plugin="branch-api@2.0.19">
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+  </folderViews>
+  <healthMetrics>
+    <com.cloudbees.hudson.plugins.folder.health.WorstChildHealthMetric plugin="cloudbees-folder@6.4">
+      <nonRecursive>false</nonRecursive>
+    </com.cloudbees.hudson.plugins.folder.health.WorstChildHealthMetric>
+  </healthMetrics>
+  <icon class="jenkins.branch.MetadataActionFolderIcon" plugin="branch-api@2.0.19">
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+  </icon>
+  <orphanedItemStrategy class="com.cloudbees.hudson.plugins.folder.computed.DefaultOrphanedItemStrategy" plugin="cloudbees-folder@6.4">
+    <pruneDeadBranches>true</pruneDeadBranches>
+    <daysToKeep>-1</daysToKeep>
+    <numToKeep>-1</numToKeep>
+  </orphanedItemStrategy>
+  <triggers/>
+  <disabled>false</disabled>
+  <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@2.0.19">
+    <data>
+      <jenkins.branch.BranchSource>
+        <source class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource" plugin="cloudbees-bitbucket-branch-source@2.2.10">
+          <id>3b3e5ac9-2657-4c39-a242-7fb3d9d22c84</id>
+          <serverUrl>https://bitbucket.org</serverUrl>
+          <credentialsId>bitbucket-cloud</credentialsId>
+          <repoOwner>rdpixalione</repoOwner>
+          <repository>lemmatizer_service</repository>
+          <traits>
+            <com.cloudbees.jenkins.plugins.bitbucket.BranchDiscoveryTrait>
+              <strategyId>3</strategyId>
+            </com.cloudbees.jenkins.plugins.bitbucket.BranchDiscoveryTrait>
+          </traits>
+        </source>
+        <strategy class="jenkins.branch.DefaultBranchPropertyStrategy">
+          <properties class="empty-list"/>
+        </strategy>
+      </jenkins.branch.BranchSource>
+    </data>
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+  </sources>
+  <factory class="org.jenkinsci.plugins.workflow.multibranch.WorkflowBranchProjectFactory">
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+    <scriptPath>Jenkinsfile</scriptPath>
+  </factory>
+</org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject>

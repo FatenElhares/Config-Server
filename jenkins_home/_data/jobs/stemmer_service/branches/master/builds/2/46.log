@@ -1,0 +1,6 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ make release
+[1;33m=> Starting Release phase...
+[0m30231ddf8b9ca729905845b47773c83a1310818832735c484403e0caeb56b4a6
+[1;33m=> Realising is Done ! ...
+[0m

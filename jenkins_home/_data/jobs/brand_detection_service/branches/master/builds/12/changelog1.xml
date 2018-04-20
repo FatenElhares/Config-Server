@@ -1,0 +1,13 @@
+commit 588ee5341d785ec398481abf23a77c6500f9855c
+tree b04b9cc5831a6868af3c8cb4db1313217f476014
+parent 9ca3cac51613bdde5c03af6edaf986189594a6f6
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 17:01:06 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 17:01:06 +0200
+
+    Delete Makefile
+
+
+
+:100755 100755 f90f01fb7f131c89e147e67155e3e3477e52c27b aebdb73617f57c91695d831d69da4637785034f0 M	Jenkinsfile
+:100755 000000 e5194bce3f17a38005b2e3437c0f92a98dfd8ca2 0000000000000000000000000000000000000000 D	Makefile
+:100644 100755 da38cbe5fef9c526bd5eb8196255d3398788d412 da38cbe5fef9c526bd5eb8196255d3398788d412 M	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/StemmResult.java

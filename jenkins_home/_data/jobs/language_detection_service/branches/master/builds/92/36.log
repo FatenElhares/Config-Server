@@ -1,0 +1,1 @@
+if [[ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=languagedetection --format='{{.ID}}'  | xargs docker stop 2>/dev/null | xargs docker rm -f -ne 0 ]]; then exit ssh root@213.32.75.99 docker ps -a -q --filter ancestor=languagedetection --format='{{.ID}}'  | xargs docker stop 2>/dev/null | xargs docker rm -f; fi 

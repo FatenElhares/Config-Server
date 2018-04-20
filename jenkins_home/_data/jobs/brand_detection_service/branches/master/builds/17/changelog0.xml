@@ -1,0 +1,12 @@
+commit c31dbe2e69175c1e7ad6b230ed62affcbfd11562
+tree 60b34b382826c67cfd1165bb60a8a5e8070ab180
+parent 1d5370df48414dfd75690172ad0ae8d7cd419f80
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 15:05:11 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 15:05:11 +0200
+
+    Updating Sonar Stages
+
+
+
+:100755 100755 f90ab5ba6edfe1605772ff5dd244e8a732a6ab5e 0c9bd5ce5d558976fb7ddb19eb1f064a4d3b4306 M	.idea/workspace.xml
+:100755 100755 297fd2e5489872a2aeece941ca2720a7a5c61d98 553bdbfa2c60ece303aaf660169b2c46f0c62ebf M	vars/standardPipeline.groovy

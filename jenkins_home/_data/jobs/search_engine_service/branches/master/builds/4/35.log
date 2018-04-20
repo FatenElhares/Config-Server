@@ -1,0 +1,2 @@
+[earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ] Running shell script
++ docker tag searchengine searchengine:0.1

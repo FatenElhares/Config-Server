@@ -1,0 +1,14 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/brand_detection_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/brand_detection_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/brand_detection_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 2f9cde8b3c2580479d6db92f92e59a2f15118c0c (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2f9cde8b3c2580479d6db92f92e59a2f15118c0c
+Commit message: "Updating Makefile"
+ > git rev-list --no-walk 2f9cde8b3c2580479d6db92f92e59a2f15118c0c # timeout=10
+[Bitbucket] Notifying commit build result

@@ -1,0 +1,9 @@
+[nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ] Running shell script
++ docker save cleanningcontent
++ bzip2
++ pv
++ ssh root@137.74.200.56 bunzip2 | docker load
+The image cleanningcontent:0.1 already exists, renaming the old one with ID sha256:698764417647eda9c8fd923ecc45accded1f51018db1e70916304e6eed2d49b0 to empty string
+Loaded image: cleanningcontent:0.1
+The image cleanningcontent:latest already exists, renaming the old one with ID sha256:698764417647eda9c8fd923ecc45accded1f51018db1e70916304e6eed2d49b0 to empty string
+Loaded image: cleanningcontent:latest

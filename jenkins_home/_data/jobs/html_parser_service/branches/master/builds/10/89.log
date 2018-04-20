@@ -1,0 +1,2 @@
+[html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA] Running shell script
++ ssh root@137.74.200.56 docker tag htmlparser htmlparser:0.1

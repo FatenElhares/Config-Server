@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.48">
+    <parentIds>
+      <string>50</string>
+    </parentIds>
+    <id>51</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1524047034226</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.48">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>if [[ $(ssh root@213.32.75.99  docker images -f dangling=true -q | xargs docker rmi) -ne 0 ]]; then exit $(ssh root@213.32.75.99  docker images -f dangling=true -q | xargs docker rmi); fi </string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

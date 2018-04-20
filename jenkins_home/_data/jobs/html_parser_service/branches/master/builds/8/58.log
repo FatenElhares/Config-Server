@@ -1,0 +1,3 @@
+[html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7071:7071 htmlparser
+f29b6673171e1cb0c8862c372e1b826a86f3850a4f8cc5da363348cf90ca004d

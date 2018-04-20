@@ -1,0 +1,4 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7072:7072 languagedetection --rm
+docker: Error response from daemon: driver failed programming external connectivity on endpoint ecstatic_wright (1703f25078650912d5dc1399996d34ff76bd6626008dc09d8311b93b31b46381): Bind for 0.0.0.0:7072 failed: port is already allocated.
++ RELEASE=1c6e62ec84b8513eadfa63dfca6961b31df7ecd03c32a5be109ba464e5d73b2f

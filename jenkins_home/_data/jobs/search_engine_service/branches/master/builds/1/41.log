@@ -1,0 +1,13 @@
+[earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:6efd02fb985db2d143c828fe5b7570a409a9fa6ffe0660c848ecb84485cf01a3
+Deleted: sha256:6d3d0d8cf424bccf0d8d3f75b617fed1d5d224c18b13edffc71e26396b955f05
+Deleted: sha256:d2518922143ad56bd0e5ba781d6a6d81031fda2b6ddc943c34320ba3b70b348f
+Deleted: sha256:9e1adeca94431583c23fc60ba90cd8dc49aeb67ff3279fb4f504c78dd4543233
+Deleted: sha256:b14e3661e69f6d0787bc85e912358f8ed4457d2b1aed330e892dac5a6d9384e6
+Deleted: sha256:fd2e26064fff3f3add9a0f0bf15e421971c29caccfd70c261ea10ddbbc4f7889
+Deleted: sha256:942c77286a72ac5ed300a5292f7c497ad07eb1c5100b9b927f8ddd10879493e1
+Deleted: sha256:5b098ad6485895f1ead0d4ecf8d8576d701b59d235fac09a9d03a6ef4e126fbb
+[1;33m=> Clean Complete
+[0m

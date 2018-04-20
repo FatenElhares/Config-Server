@@ -1,0 +1,4 @@
+[html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 7071:7071 htmlparser
+bb7d57077be0c1d2b70e66d290455844cbdd73efe31828edcb9b7d88e6fe1868
+docker: Error response from daemon: driver failed programming external connectivity on endpoint sharp_johnson (b60a775ad482b57948d31e41705f18e4b5638e575f915dce1ae072c29e785493): Bind for 0.0.0.0:7071 failed: port is already allocated.

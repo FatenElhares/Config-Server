@@ -1,0 +1,36 @@
+commit 8ffc7fed0f43071b5200491b0d786a65246a7c25
+tree 3660e61cb143fb3a5d1456e7aa3b9718022565bb
+parent 0887e993e637baad23392071930b07d25f5d931f
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 10:26:44 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 10:26:44 +0200
+
+    Adding Tag variable
+
+
+
+:100755 100755 d5ca168f1ba639578c0b934d3c5f660ece75fe1e b23c464c3d2056c32b7cb1cff4016d6a8231e524 M	.idea/workspace.xml
+:100755 100755 62b38b6f6ffb6cf1c89d91898626df86e0c9e6cc 159717a630f06c312d79b15164d0db9b0545bc41 M	vars/standardPipeline.groovy
+commit 0887e993e637baad23392071930b07d25f5d931f
+tree 6d105fea8a46b84a5b6160d82d9a1e654af4a616
+parent 9696d6e9291fe12039a9a2448e7647df684c9c9c
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 10:05:45 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 10:05:45 +0200
+
+    Adding Tag variable
+
+
+
+:100755 100755 cb6bdfd6a741185537cff83c7a72fdb9a9b9a473 d5ca168f1ba639578c0b934d3c5f660ece75fe1e M	.idea/workspace.xml
+:100755 100755 e21e28826a5891fe98b916df3769f31973b9a7e1 62b38b6f6ffb6cf1c89d91898626df86e0c9e6cc M	vars/standardPipeline.groovy
+commit 9696d6e9291fe12039a9a2448e7647df684c9c9c
+tree 7c198c8f393ce79ccc19ac809d0656978c6ad7d0
+parent f7ef5ae48b0f75ade06c1149f2465dba18512fba
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 09:45:45 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 09:45:45 +0200
+
+    Adding Tag variable
+
+
+
+:100755 100755 93a49f473912d4e58ee8a6d55a93557b0832937d cb6bdfd6a741185537cff83c7a72fdb9a9b9a473 M	.idea/workspace.xml
+:100755 100755 020ca5e0de11de666d9bcaf45b6ea46a29c245b9 e21e28826a5891fe98b916df3769f31973b9a7e1 M	vars/standardPipeline.groovy

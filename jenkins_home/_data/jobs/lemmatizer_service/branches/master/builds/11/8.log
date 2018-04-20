@@ -1,0 +1,8 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/lemmatizer_service.git
+ > git init /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/lemmatizer_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/lemmatizer_service.git +refs/heads/master:refs/remotes/origin/master

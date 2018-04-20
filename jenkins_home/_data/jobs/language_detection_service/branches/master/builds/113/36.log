@@ -1,0 +1,13 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=languagedetection --format={{.ID}}
++ xargs docker stop
++ xargs docker rm -f
+7b773177d943
+3d49f5cb3fc5
+557f863b20d3
+5a6b561c83e9
+4fdc44e21f87
+e780f0902580
+13a09eb7d912
+9d43012d2584
+9c68c8da4e0b

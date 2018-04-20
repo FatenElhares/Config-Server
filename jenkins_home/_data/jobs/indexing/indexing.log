@@ -1,0 +1,32 @@
+Started by user [8mha:////4No/f6glFmRLX5ebmbIECRV1UilxYmCDUZVMEFB74V00AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL9xNzMvFSHgsyKxJzM/LxUoOZcAA0R/WrOAAAA[0mamine@pixalione.com
+[Fri Apr 20 11:25:24 UTC 2018] Starting branch indexing...
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git ls-remote --symref https://bitbucket.org/abhamza/keyword-relevancy-final/ # timeout=10
+Creating git repository in /var/jenkins_home/caches/git-27751b20670f2a6086664366dacba5a4
+ > git init /var/jenkins_home/caches/git-27751b20670f2a6086664366dacba5a4 # timeout=10
+Setting origin to https://bitbucket.org/abhamza/keyword-relevancy-final/
+ > git config remote.origin.url https://bitbucket.org/abhamza/keyword-relevancy-final/ # timeout=10
+Fetching & pruning origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/* --prune
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git ls-remote -h https://bitbucket.org/abhamza/keyword-relevancy-final/ # timeout=10
+Checking branches...
+  Checking branch origin
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: origin
+  Checking branch amine
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch master
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+Processed 3 branches
+[Fri Apr 20 11:25:32 UTC 2018] Finished branch indexing. Indexing took 7.6 sec
+Finished: SUCCESS

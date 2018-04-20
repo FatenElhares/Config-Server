@@ -1,0 +1,11 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:00f47a44671b3b3452a0da03365facc5d329e8c6df903b46941eaea607c1d0c3
+Deleted: sha256:474fc1f41d7ba67556a5348e3ef668e9de43dc506a2227f6fb6ff896042dead5
+Deleted: sha256:4bbf59e58ce4ca5ef2ecabba5ce38b98b8f4afabb8938f8df2b2d72b672732d1
+Deleted: sha256:dfbfbf47961c9361da43179be22f3f76c8a24c6e7516e26d3639e31bc3168b8d
+Deleted: sha256:dcc162b41f6bd014f6d9055de62e801bef8c4ca974e17f5cadda216d9c673588
+Deleted: sha256:fde72070b967607a4f2fe88e09a7d16e008d4b8ce4e7540a3172fa90aeabf6e7
+[1;33m=> Clean Complete
+[0m

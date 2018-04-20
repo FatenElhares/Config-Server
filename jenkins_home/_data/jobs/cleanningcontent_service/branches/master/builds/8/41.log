@@ -1,0 +1,6 @@
+[nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ] Running shell script
++ docker save cleanningcontent:0.1
++ pv
++ bzip2
++ ssh root@213.32.75.99 bunzip2 | docker load
+Loaded image: cleanningcontent:0.1

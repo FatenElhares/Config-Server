@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/lemmatizer_service.git
+ > git init /var/jenkins_home/workspace/lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/lemmatizer_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/lemmatizer_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/lemmatizer_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/lemmatizer_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/lemmatizer_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/lemmatizer_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision f6efcd7d74c6e49bd085962bf6908c5252d153f8 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f6efcd7d74c6e49bd085962bf6908c5252d153f8
+Commit message: "Merge branch 'master' of bitbucket.org:rdpixalione/lemmatizer_service"
+ > git rev-list --no-walk 61a72bb46d11559eb0accedab7fb0227d3af1607 # timeout=10
+[Bitbucket] Notifying commit build result

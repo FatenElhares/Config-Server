@@ -1,0 +1,11 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:ae7e75ede1e311a60a2551b5573cb22ddb2fbd80850de1c89c6093c8f53b43c6
+Deleted: sha256:eeea6c50cf29df32621ba8ed5d36813300228f41dfaaeb9b88b80cd37ea671f7
+Deleted: sha256:88c11501e60bf908b26692b96e020a9644a95ea7c3762c9fe523eebbec3c63b5
+Deleted: sha256:70c0e159aa4506a637543e56e848bd79c659e9a7320892121403aa8a97bc132d
+Deleted: sha256:274962ce4c219ad3a41d1415682d34994cac0e5244409469187371c707dc77bf
+Deleted: sha256:a632c55e97b2b39ea5fa78009a7697bd6ab736f6462d155f0c964b2426bd354b
+[1;33m=> Clean Complete
+[0m

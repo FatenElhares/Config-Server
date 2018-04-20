@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-04-20 13:31:30.990 UTC</timestamp>
+  <md5sum>bf8e17d071a2683b10339e79ccaa7cd0</md5sum>
+  <fileName>Credential id=jenkins-generated-ssh-key name=amine@pixalione.com (jenkins-generated-ssh-key)</fileName>
+  <usages>
+    <entry>
+      <string>keyword-relevancy-final/origin</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>keyword-relevancy-final/master</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

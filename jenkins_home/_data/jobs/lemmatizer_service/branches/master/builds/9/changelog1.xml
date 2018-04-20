@@ -1,0 +1,11 @@
+commit cdc63cdff5dde9e85e4fd41bac3d11075840575d
+tree c643f8d9a0001fd9592334e883bdaa2afc86219e
+parent b9f321229e50b1fd8fe5fd373cabf05f09249dce
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-19 10:56:32 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-19 10:56:32 +0200
+
+    Change tokenizer to handle (marocaine)  -> ( marocain )
+
+
+
+:100755 100755 3cb6c115f1888c0ef79a87781964ae943ec4ddaf 6edd4bfbb94163f87498fe6449a6413028dee250 M	src/main/java/com/pixalione/monetoring/data_prepropcessing/Service/TreeTaggerService.java

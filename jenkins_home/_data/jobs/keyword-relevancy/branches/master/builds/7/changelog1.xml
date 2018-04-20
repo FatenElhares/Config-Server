@@ -1,0 +1,11 @@
+commit 4b8156219475e650de85b529572d6bd78fbb0c4e
+tree bd493f6bb1e22ea662f3b44bde7284ee0a3e1edf
+parent d8d754a3c3fa4599f3af6a2dc8a14a3c33eaa195
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 17:20:03 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 17:20:03 +0200
+
+     Config pipeline
+
+
+
+:100755 100755 d84f2503ec662282e264fee25c2a9a3c758ec9cb ca4c6e27b186a53d7508b4c01352b42d5d9dd26e M	Makefile

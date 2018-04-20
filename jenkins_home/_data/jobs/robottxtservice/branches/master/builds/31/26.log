@@ -1,0 +1,5 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=robottxt --format={{.ID}}
++ + xargs docker rm -fxargs
+ docker stop
+983585bf2782

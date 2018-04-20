@@ -1,0 +1,7 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ docker save robottxt
++ bzip2
++ pv
++ ssh root@137.74.200.56 bunzip2 | docker load
+Loaded image: robottxt:0.1
+Loaded image: robottxt:latest

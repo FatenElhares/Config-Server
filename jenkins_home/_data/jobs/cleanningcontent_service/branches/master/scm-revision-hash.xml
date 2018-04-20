@@ -1,0 +1,8 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.AbstractGitSCMSource_-SCMRevisionImpl plugin="git@3.8.0">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead" plugin="cloudbees-bitbucket-branch-source@2.2.10">
+    <name>master</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>c8b0568a24a86a7a92aa48a631fa05aaa6a458d4</hash>
+</jenkins.plugins.git.AbstractGitSCMSource_-SCMRevisionImpl>

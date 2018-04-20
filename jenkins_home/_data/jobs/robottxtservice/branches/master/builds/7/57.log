@@ -1,0 +1,4 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ ssh root@213.32.75.99 docker run -d -p 6060:6060 robottxt
+4832c8560aad46c34baf5180572939288e346df9a3c66e4cf63b947efd3d128c
+docker: Error response from daemon: driver failed programming external connectivity on endpoint admiring_bohr (09ea6999bae47f6a5dc9d0193f8596e31ed2a788983835db04886a8a49100f30): Bind for 0.0.0.0:6060 failed: port is already allocated.

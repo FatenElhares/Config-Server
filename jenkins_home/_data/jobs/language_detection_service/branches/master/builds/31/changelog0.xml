@@ -1,0 +1,12 @@
+commit d61689f67f65c98840f3e63c2e09f4de73403814
+tree fb4e8cdb2c629b059446555c874f886a212b9238
+parent f9c697f79959d2e2c6d1f5980b04c3f0601033eb
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 11:24:58 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 11:24:58 +0200
+
+    Updating Jenkis
+
+
+
+:100644 100644 4765063fbc054e1ed311dd96f3407a2106763a4d 2a30096aa16aaea361a7ec87f9981d4da59908cc M	.idea/workspace.xml
+:100644 100644 ab8bdc175eb2e5668407a9e186d13840d884a146 3fd15521f663a3bbbe6140525ac904256eeb07b4 M	vars/standardPipeline.groovy

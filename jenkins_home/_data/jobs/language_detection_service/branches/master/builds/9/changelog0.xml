@@ -1,0 +1,11 @@
+commit c3178c5a3dcedc62da7e21b5ed45f29c80775ead
+tree b82ec3207da1df7f350d02427130055ea9319fd8
+parent 9dbeeebf70b8957da04227f7a4c95851640cb031
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 13:04:53 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-16 13:04:53 +0200
+
+     remote JenkinsFile
+
+
+
+:100755 100755 45ccb5b0f2b458a789afcc5671327e25c7258163 23182bc5212fc2e59a2a8f76e50012fd873b29c8 M	Jenkinsfile.groovy

@@ -1,0 +1,9 @@
+[nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ] Running shell script
++ ssh root@137.74.200.56 Clean-Container cleanningcontent
+cleanningcontent
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers

@@ -1,0 +1,9 @@
+[nd_detection_service_master-IPT3NWHNQZ4CFDHIO4BCY4OTGPEBLC3YHRT5RGIUOII2KPQ34YSA] Running shell script
++ mvn compile
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method)
+	at java.lang.Thread.start(Thread.java:717)
+	at java.lang.ref.Reference.<clinit>(Reference.java:232)
+

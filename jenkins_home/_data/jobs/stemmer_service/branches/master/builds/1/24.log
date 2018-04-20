@@ -1,0 +1,6 @@
+[stemmer_service_master-6XLHJTFJEGVJZY4FDK4TZOOWCHZTOBWS2W57A4VX32436TUTSP2Q] Running shell script
++ make push
+[1;33m=> Pushing Stemmer Docker Image ...
+[0mLoaded image: stemmer:latest
+[1;33m=> Stage Test and Build Complete
+[0m

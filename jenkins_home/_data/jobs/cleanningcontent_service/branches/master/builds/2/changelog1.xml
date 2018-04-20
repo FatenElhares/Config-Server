@@ -1,0 +1,24 @@
+commit bc28c1d18e48ef71b1bd23bce40dd315e74d4610
+tree e03b3a037fe7eb2d4e8cbf2eed5a9ca879e5f87b
+parent a841c3bb797cd3aa8f1d2549b524f1739a12d8fc
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:14:05 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-17 12:14:05 +0200
+
+     Updating Makefile & Jenkisfile
+
+
+
+:100755 100755 fe59ee64bcbc647a2f5387c2ff69ee9f8455edae f90f01fb7f131c89e147e67155e3e3477e52c27b M	Jenkinsfile
+:100755 100755 e08b0422c45f445d58a519e4e06b3197397f8cac 1e1f1b5973ce1f854c9b93e330e19dab7d43ecc6 M	Makefile
+commit 2f70ea878773264c1eb09dc99d53fc6f7e662aad
+tree 4b320a402ad1391258b15705ead8ba64a95a6206
+parent a841c3bb797cd3aa8f1d2549b524f1739a12d8fc
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 20:21:44 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-16 20:21:44 +0200
+
+    Update StopWord for French (KWS Nazanin inputs)
+
+
+
+:100755 100755 fe1f9a355aee43419c8fc7ce26434048e4533d5d 8bb50cbaa3aa73088aba65b55099ec2fe67c3c6e M	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/CleanTextService.java
+:100755 100755 2470f53a1b27111da9a7a728c784e95bf21e5103 ba5e30182e2d18b0ec2de4b12111d6d6be5bf51c M	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/StopWordsService.java

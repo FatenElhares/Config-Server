@@ -1,0 +1,7 @@
+[html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA] Running shell script
++ docker save htmlparser
++ bzip2
++ pv
++ ssh root@137.74.200.56 bunzip2 | docker load
+Loaded image: htmlparser:0.1
+Loaded image: htmlparser:latest

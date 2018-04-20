@@ -1,0 +1,11 @@
+commit e8b88821d9d9c43e36459cc3f380d5ee04bd1f44
+tree 8767cd879fe16f28af24e499b74f03bf8e8e103c
+parent c9fcad6c3f16a6254c210cfeea937cb5de2dc3bc
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 14:53:05 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 14:53:05 +0200
+
+    improving the syntax
+
+
+
+:100755 100755 856b43e787b7eb922beaa585ced86ec7b4b6be79 ebe020bff1a02c5211474c8580f880d8c69da8f1 M	vars/standardPipeline.groovy

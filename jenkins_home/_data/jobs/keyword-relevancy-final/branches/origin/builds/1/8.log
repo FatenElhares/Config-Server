@@ -1,0 +1,32 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository git@bitbucket.org:abhamza/keyword-relevancy-final.git
+ > git init /var/jenkins_home/workspace/word-relevancy-final_origin-PWKNYIZRVDH4QHK3F7UAYX52UDUZBMIT44CEQESDHZ2RZCY2ZFMA # timeout=10
+Fetching upstream changes from git@bitbucket.org:abhamza/keyword-relevancy-final.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials jenkins-generated-ssh-key
+ > git fetch --no-tags --progress git@bitbucket.org:abhamza/keyword-relevancy-final.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@bitbucket.org:abhamza/keyword-relevancy-final.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@bitbucket.org:abhamza/keyword-relevancy-final.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+No valid HEAD. Skipping the resetting
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from git@bitbucket.org:abhamza/keyword-relevancy-final.git
+using GIT_SSH to set credentials jenkins-generated-ssh-key
+ > git fetch --no-tags --progress git@bitbucket.org:abhamza/keyword-relevancy-final.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision eb3c96a8245463e80c93f4e77c3ffcf48c94fd10 (origin)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f eb3c96a8245463e80c93f4e77c3ffcf48c94fd10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b origin eb3c96a8245463e80c93f4e77c3ffcf48c94fd10
+Commit message: "Maj 0.6 -Add JenkinsFile and DockerFile"
+First time build. Skipping changelog.
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+fatal: bad object c31dbe2e69175c1e7ad6b230ed62affcbfd11562

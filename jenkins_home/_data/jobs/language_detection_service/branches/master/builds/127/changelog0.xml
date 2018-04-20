@@ -1,0 +1,12 @@
+commit 419c061c9af761614ca5bb5fab14e81f9588d07a
+tree b8776af249e4d7fa54136482c830039be64c3a33
+parent 6489b44534dee3e753781f538579b772270c0e1b
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 15:29:06 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 15:29:06 +0200
+
+    improving the syntax
+
+
+
+:100755 100755 b3b42a8abf558e2673b504c63534505503b6e022 84304c42fe1dfec2af479ba4d3ab9a15662ee165 M	.idea/workspace.xml
+:100755 100755 004c98404089c72f097dae581057569d5df0fdd4 f449bd5e5e09fdb08901e7254c06d3ac0873f687 M	vars/standardPipeline.groovy

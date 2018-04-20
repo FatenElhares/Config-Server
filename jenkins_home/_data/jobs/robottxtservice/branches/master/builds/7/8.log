@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/robottxtservice.git
+ > git init /var/jenkins_home/workspace/robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/robottxtservice.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/robottxtservice.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/robottxtservice.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/robottxtservice.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/robottxtservice.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/robottxtservice.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 560c813d8698575847685139f1890898a0b405f9 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 560c813d8698575847685139f1890898a0b405f9
+Commit message: " Delete Makefile"
+ > git rev-list --no-walk 560c813d8698575847685139f1890898a0b405f9 # timeout=10
+[Bitbucket] Notifying commit build result

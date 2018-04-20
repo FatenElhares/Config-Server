@@ -1,0 +1,4 @@
+[word-relevancy-final_master-IRDRBOLRV3DWKPUYGW7GPXTVRSV4DVDTGW2XU3XN3BQPZJNQ6VLA] Running shell script
+sh: 1: Cannot fork
++ mvn compile
+/usr/bin/mvn: 53: /usr/bin/mvn: Cannot fork

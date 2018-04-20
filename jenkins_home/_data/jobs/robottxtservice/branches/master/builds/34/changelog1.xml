@@ -1,0 +1,11 @@
+commit 77d35d38187e369ed9d29fe86f08d997e240c6b7
+tree c71c1f275f0eea880e898fc08f62192e6aae52c5
+parent 3ccdd62517ec121b73b45237e87d2efedb688946
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 10:33:01 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 10:33:01 +0200
+
+    Adding Tag variable
+
+
+
+:100755 100755 ee460ad2aa48e0a16947e433e9bcdc7d87275b83 ab2cfd6cf5e36e5f917e5fb2048f29bdcd90f27d M	Jenkinsfile

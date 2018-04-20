@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git init /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision de672cef761ca3fd6bfc341ba5345ecbed9032d8 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f de672cef761ca3fd6bfc341ba5345ecbed9032d8
+Commit message: "Update Jenkisfile"
+ > git rev-list --no-walk 30521acdad06608f9341f49c25521601c9a02ac7 # timeout=10
+[Bitbucket] Notifying commit build result

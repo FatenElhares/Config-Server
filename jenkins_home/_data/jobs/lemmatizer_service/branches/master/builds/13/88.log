@@ -1,0 +1,8 @@
+[lemmatizer_service_master-GMTR6X7KMJ5LH43WWLRTO2FE36HCYKBRK3WIOEA65OPACRYM3YKA] Running shell script
++ docker save lemmatizer
++ bzip2
++ pv
++ ssh root@137.74.200.56 bunzip2 | docker load
+The image lemmatizer:latest already exists, renaming the old one with ID sha256:6f1d983ce233a10e9ff779294f5d36b954defa24d95e39b61e5f3abfefb27ea4 to empty string
+Loaded image: lemmatizer:latest
+Loaded image: lemmatizer:null

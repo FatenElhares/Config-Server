@@ -1,0 +1,96 @@
+[earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ] Running shell script
++ make create
+[1;33m=> Cleanning Docker Containers ...
+[0mVALUE: [[: 8d011b1dcbbf: value too great for base (error token is "8d011b1dcbbf")
+[1;33m=> Creating Search Engine Image...
+[0m/var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.pixalione.monetoring.seo:searchengine:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.jdo:jdo-api:jar -> duplicate declaration of version 3.0.1 @ line 104, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building searchengine 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ searchengine ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ searchengine ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/target/classes
+[WARNING] /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/src/main/java/com/pixalione/monetoring/seo/Dao/Abstract/RestElasticSearchRepository.java: /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/src/main/java/com/pixalione/monetoring/seo/Dao/Abstract/RestElasticSearchRepository.java uses unchecked or unsafe operations.
+[WARNING] /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/src/main/java/com/pixalione/monetoring/seo/Dao/Abstract/RestElasticSearchRepository.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ searchengine ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ searchengine ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ searchengine ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ searchengine ---
+[INFO] Building jar: /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/target/searchengine-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.10.RELEASE:repackage (default) @ searchengine ---
+[INFO] 
+[INFO] --- dockerfile-maven-plugin:1.4.0:build (default) @ searchengine ---
+[INFO] Building Docker context /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ
+[INFO] 
+[INFO] Image will be built as searchengine:latest
+[INFO] 
+[INFO] Step 1/8 : FROM openjdk:8-jdk-alpine
+[INFO] 
+[INFO] Pulling from library/openjdk
+[INFO] Digest: sha256:e82316151c501a2a0f73b3089da8dc867816470a464fcb191db9f88c2343ad53
+[INFO] Status: Image is up to date for openjdk:8-jdk-alpine
+[INFO]  ---> 224765a6bdbe
+[INFO] Step 2/8 : VOLUME /tmp
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> ea6e1d43f07b
+[INFO] Step 3/8 : ARG JAR_FILE
+[INFO] 
+[INFO]  ---> Using cache
+[INFO]  ---> 3921928e2bd8
+[INFO] Step 4/8 : ADD ${JAR_FILE} app.jar
+[INFO] 
+[INFO]  ---> fd36513b2e04
+[INFO] Step 5/8 : ADD /ElasticSearch /ElasticSearch
+[INFO] 
+[INFO]  ---> 85730bd8a263
+[INFO] Step 6/8 : ADD Google_TLD.csv Google_TLD.csv
+[INFO] 
+[INFO]  ---> cc5e05415382
+[INFO] Step 7/8 : EXPOSE 9091/tcp
+[INFO] 
+[INFO]  ---> Running in f980652c796c
+[INFO] Removing intermediate container f980652c796c
+[INFO]  ---> 0f7d4bffbb60
+[INFO] Step 8/8 : ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+[INFO] 
+[INFO]  ---> Running in d143a37f98fd
+[INFO] Removing intermediate container d143a37f98fd
+[INFO]  ---> bb75331b0ec4
+[INFO] Successfully built bb75331b0ec4
+[INFO] Successfully tagged searchengine:latest
+[INFO] 
+[INFO] Detected build of image with id bb75331b0ec4
+[INFO] Building jar: /var/jenkins_home/workspace/earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ/target/searchengine-0.0.1-SNAPSHOT-docker-info.jar
+[INFO] Successfully built searchengine:latest
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.115 s
+[INFO] Finished at: 2018-04-18T07:28:06Z
+[INFO] Final Memory: 64M/867M
+[INFO] ------------------------------------------------------------------------

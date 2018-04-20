@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@2.27">
+    <parentIds/>
+    <id>2</id>
+  </node>
+  <actions>
+    <s.a.WorkspaceActionImpl>
+      <node></node>
+      <path>/var/jenkins_home/workspace/html_parser_service_master-WQU5H3RVHXPIOYSUZW5U5SDBTGIW5SSEMN5SPQAEBXQOEFNLJUHA@script</path>
+      <labels class="sorted-set"/>
+    </s.a.WorkspaceActionImpl>
+  </actions>
+</Tag>

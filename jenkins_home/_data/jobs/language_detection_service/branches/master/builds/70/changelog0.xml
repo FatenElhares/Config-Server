@@ -1,0 +1,11 @@
+commit dbc9ea7398aa8df3fb410d6df05ac435bbcbdf95
+tree 72971ae7313875b566c59f35514d498f6d7b31c3
+parent 91c09ef953c889ed8a99fac8c052b7d25d12eabc
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 12:15:17 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 12:15:17 +0200
+
+    Adding shell Commands
+
+
+
+:100755 100755 4a83ed7fcfc2d94a1e2b04ae3f1c402c941a6e26 53dbe15150069c55fc847e073c29b2d593aeee81 M	vars/standardPipeline.groovy

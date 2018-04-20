@@ -1,0 +1,6 @@
+[earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ] Running shell script
++ make push
+[1;33m=> Pushing Search Engine Docker Image ...
+[0mLoaded image: searchengine:latest
+[1;33m=> Stage Test and Build Complete
+[0m

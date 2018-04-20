@@ -1,0 +1,90 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@2] Running shell script
++ mvn sonar:sonar -Dsonar.host.url=http://213.32.75.99:9000 -Dsonar.login=4f71b9d7d33b0f4e07d40d3acc7c26dad5e95fdc
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building languagedetection 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ languagedetection ---
+[INFO] User cache: /root/.sonar/cache
+[INFO] SonarQube version: 7.0.0
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Publish mode
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=137ms
+[INFO] Server id: AWLNpaenYXGBWF_7PvT0
+[INFO] User cache: /root/.sonar/cache
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=91ms
+[INFO] Load/download plugins
+[INFO] Load/download plugins (done) | time=18ms
+[INFO] Process project properties
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=331ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=43ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=601ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=29ms
+[INFO] Project key: com.pixalione.monetoring.data_preprocessing:languagedetection
+[INFO] -------------  Scan languagedetection
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=52ms
+[INFO] Base dir: /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@2
+[INFO] Working dir: /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@2/target/sonar
+[INFO] Source paths: pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en
+[INFO] Index files
+[INFO] 9 files indexed
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 8
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=20ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=3ms
+[INFO] Java Main Files AST scan
+[INFO] 6 source files to be analyzed
+[INFO] Java Main Files AST scan (done) | time=1197ms
+[INFO] Java Test Files AST scan
+[INFO] 2 source files to be analyzed
+[INFO] 6/6 source files have been analyzed
+[INFO] 2/2 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=145ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=2301ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@2/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=4ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=2ms
+[INFO] Sensor SonarJavaXmlFileSensor [java]
+[INFO] 1 source files to be analyzed
+[INFO] Sensor SonarJavaXmlFileSensor [java] (done) | time=1122ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=119ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=25ms
+[INFO] Sensor CPD Block Indexer
+[INFO] Sensor CPD Block Indexer (done) | time=25ms
+[INFO] 2 files had no CPD blocks
+[INFO] Calculating CPD for 4 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 116ms, dir size=67 KB
+[INFO] Analysis reports compressed in 25ms, zip size=28 KB
+[INFO] Analysis report uploaded in 40ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://213.32.75.99:9000/dashboard/index/com.pixalione.monetoring.data_preprocessing:languagedetection
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://213.32.75.99:9000/api/ce/task?id=AWLYxkaxgr_boLqFP8X1
+[INFO] Task total time: 7.303 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.373 s
+[INFO] Finished at: 2018-04-18T12:41:35+00:00
+[INFO] Final Memory: 43M/1004M
+[INFO] ------------------------------------------------------------------------

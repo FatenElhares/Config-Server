@@ -1,0 +1,6 @@
+[earch_engine_service_master-ZIAIQ7YLDK6AFKRFVWUIAQAIER6O2R6Q7OC4DRHZQOTFWRLGZIEQ] Running shell script
++ docker save searchengine
++ bzip2
++ pv
++ ssh root@213.32.75.99 bunzip2 | docker load
+Loaded image: searchengine:latest

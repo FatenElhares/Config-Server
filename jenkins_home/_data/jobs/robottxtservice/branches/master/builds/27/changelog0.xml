@@ -1,0 +1,12 @@
+commit 9696d6e9291fe12039a9a2448e7647df684c9c9c
+tree 7c198c8f393ce79ccc19ac809d0656978c6ad7d0
+parent f7ef5ae48b0f75ade06c1149f2465dba18512fba
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 09:45:45 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-20 09:45:45 +0200
+
+    Adding Tag variable
+
+
+
+:100755 100755 93a49f473912d4e58ee8a6d55a93557b0832937d cb6bdfd6a741185537cff83c7a72fdb9a9b9a473 M	.idea/workspace.xml
+:100755 100755 020ca5e0de11de666d9bcaf45b6ea46a29c245b9 e21e28826a5891fe98b916df3769f31973b9a7e1 M	vars/standardPipeline.groovy

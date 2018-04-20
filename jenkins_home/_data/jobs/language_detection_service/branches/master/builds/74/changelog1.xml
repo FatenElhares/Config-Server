@@ -1,0 +1,11 @@
+commit 1bcc5c4e33d18f1845694681ce006e77668b3f9a
+tree dd96b0a6fd7133e52d505a334dae0b6e8891a550
+parent c5d25714d6ec3a5b9bd12340d0cc8a6d0ca981ef
+author FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 12:23:11 +0200
+committer FatenElhares <faten.hrs1994@gmail.com> 2018-04-18 12:23:11 +0200
+
+    Update Jenkisfile
+
+
+
+:100755 100755 039720d9fce343f9c3c0eae78599c1cfdb91621a 6220f734d26a7bbd6ff6c498f843a4a3b74c4565 M	Jenkinsfile

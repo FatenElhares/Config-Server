@@ -1,0 +1,15 @@
+Started
+[Tue Apr 17 10:31:56 UTC 2018] Starting branch indexing...
+Connecting to https://bitbucket.org using amine@pixalione.com/****** (Bitbucket server credentials)
+Repository type: Git
+Looking up rdpixalione/robottxtservice for branches
+Checking branch master from rdpixalione/robottxtservice
+      ‘Jenkinsfile’ found
+    Met criteria
+Takeover for [8mha:////4Hehmi+Ocukzo2pJABKP0JZ06jWSD+rK9+caLwlzK29/AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYF/az8JP2i/KT8kpKKkuLUorLM5FSwWG5icUlqkT4Axm252tUAAAA=[0mrobottxtservice » master by source #1 from source that no longer exists
+Branch reopened: master (bbcc3b61a07e6c057e254db286bd0541f7ad992c)
+Scheduled build for branch: master
+
+  1 branches were processed
+[Tue Apr 17 10:31:57 UTC 2018] Finished branch indexing. Indexing took 0.99 sec
+Finished: SUCCESS

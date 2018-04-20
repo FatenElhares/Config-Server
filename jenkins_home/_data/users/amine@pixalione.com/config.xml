@@ -1,0 +1,149 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <fullName>amine@pixalione.com</fullName>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <apiToken>{AQAAABAAAAAwpv7Uf2+LZkcUjnIC8RlzfP6qZf1d4L2OWOHFyoB5zsWuccIaN7tnXPBNqrJY8OJSAsp3c7KWL88tZmVaaFPahA==}</apiToken>
+    </jenkins.security.ApiTokenProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList/>
+        </entry>
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <name>blueocean-bitbucket-cloud-domain</name>
+            <description>blueocean-bitbucket-cloud-domain to store credentials by BlueOcean</description>
+            <specifications>
+              <io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanDomainSpecification plugin="blueocean-pipeline-scm-api@1.5.0"/>
+            </specifications>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <list>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+              <scope>USER</scope>
+              <id>bitbucket-cloud</id>
+              <description>Bitbucket server credentials</description>
+              <username>amine@pixalione.com</username>
+              <password>{AQAAABAAAAAQ/9bvblwM3gbw+0mVN0gfge3Vnvni9u8ENez21UMyDDw=}</password>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+          </list>
+        </entry>
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <name>blueocean-git-domain</name>
+            <description>blueocean-git-domain to store credentials by BlueOcean</description>
+            <specifications>
+              <io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanDomainSpecification plugin="blueocean-pipeline-scm-api@1.5.0"/>
+            </specifications>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <list>
+            <com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey plugin="ssh-credentials@1.13">
+              <scope>USER</scope>
+              <id>git-ssh-key-master</id>
+              <description>Master SSH Key for Git Creation</description>
+              <privateKeySource class="com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey$UsersPrivateKeySource"/>
+            </com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey>
+          </list>
+        </entry>
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <name>blueocean-private-key-domain</name>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <list>
+            <com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey plugin="ssh-credentials@1.13">
+              <scope>USER</scope>
+              <id>jenkins-generated-ssh-key</id>
+              <description>jenkins-generated-ssh-key</description>
+              <username>amine@pixalione.com</username>
+              <privateKeySource class="com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey$DirectEntryPrivateKeySource">
+                <privateKey>{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}</privateKey>
+              </privateKeySource>
+            </com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey>
+          </list>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.62">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.2.0">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$RaHuGbcol6Xw/W02fhsUpu0NDvLglbrxAMuVqq3Gq/RDcNKeN1gL6</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.21">
+      <emailAddress>faten.elhares@pixalione.com</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.1">
+      <data class="concurrent-hash-map">
+        <entry>
+          <string>search_engine_service/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>brand_detection_service/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>cleanningcontent_service/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>stemmer_service/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>robottxtservice/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>keyword-relevancy/master</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>language_detection_service/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>lemmatizer_service/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>html_parser_service/master</string>
+          <boolean>true</boolean>
+        </entry>
+      </data>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1523625071637</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.2">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
+  </properties>
+</user>

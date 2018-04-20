@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/rdpixalione/brand_detection_service.git
+ > git init /var/jenkins_home/workspace/nd_detection_service_master-IPT3NWHNQZ4CFDHIO4BCY4OTGPEBLC3YHRT5RGIUOII2KPQ34YSA # timeout=10
+Fetching upstream changes from https://bitbucket.org/rdpixalione/brand_detection_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/brand_detection_service.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/brand_detection_service.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/brand_detection_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/brand_detection_service.git
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/brand_detection_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 588ee5341d785ec398481abf23a77c6500f9855c (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 588ee5341d785ec398481abf23a77c6500f9855c
+Commit message: "Delete Makefile"
+ > git rev-list --no-walk 9ca3cac51613bdde5c03af6edaf986189594a6f6 # timeout=10
+[Bitbucket] Notifying commit build result

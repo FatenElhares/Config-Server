@@ -1,0 +1,15 @@
+Started
+[Tue Apr 17 10:27:26 UTC 2018] Starting branch indexing...
+Connecting to https://bitbucket.org using amine@pixalione.com/****** (Bitbucket server credentials)
+Repository type: Git
+Looking up rdpixalione/lemmatizer_service for branches
+Checking branch master from rdpixalione/lemmatizer_service
+      ‘Jenkinsfile’ found
+    Met criteria
+Takeover for [8mha:////4OS7eI1H7JApCdZ03RzyRWi5baGESzu0H+h66mNvdW9GAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzpEgZl/az8JP2c1NzcxJLMqtSi+OLUorLM5FSwcG5icUlqkT4AjuwzZNgAAAA=[0mlemmatizer_service » master by source #1 from source that no longer exists
+Branch reopened: master (f6efcd7d74c6e49bd085962bf6908c5252d153f8)
+Scheduled build for branch: master
+
+  1 branches were processed
+[Tue Apr 17 10:27:27 UTC 2018] Finished branch indexing. Indexing took 0.87 sec
+Finished: SUCCESS

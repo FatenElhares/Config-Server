@@ -1,0 +1,7 @@
+[ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA] Running shell script
++ [[ ssh root@213.32.75.99 docker ps -a -q --filter ancestor=languagedetection --format={{.ID}}
++ xargs/var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-3bbda23b/script.sh: 2: /var/jenkins_home/workspace/ge_detection_service_master-MAQLAX637ZF3G3XBHHGDGRX6FERZ36YMWM2RT2GFR2ZSHS5BZPUA@tmp/durable-3bbda23b/script.sh:  docker[[: not found stop
+
++ xargs docker rm -f -ne 0 ]]
+unknown shorthand flag: 'n' in -ne
+See 'docker rm --help'.

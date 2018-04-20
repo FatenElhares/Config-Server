@@ -1,0 +1,57 @@
+commit 732f4510cadbefda91eef5173c6e447c9adb6378
+tree 28ee60aa8d0fafa10eb3fb64b7519ed8b1f539f5
+parent d9455cdbce5aaece20085ae9508848a5e4800982
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-20 11:26:06 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-20 11:26:06 +0200
+
+    Add normlization transformer on normalized Stopword
+
+
+
+:100644 100644 9bd05064e186f1042ef6fef4d3281b11f9b2f846 48fb371507eccac64ef4651fb51b86b36a16d74e M	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/NormalizerService.java
+commit 408535e4e9b3af4c74484bd49b6700542d0703eb
+tree 5cf9a26cd0ee20bff0740b688e5afcd83179e665
+parent 2f70ea878773264c1eb09dc99d53fc6f7e662aad
+author Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-20 11:25:40 +0200
+committer Mohammed Amine OUASMINE <m.amine.osm@gmail.com> 2018-04-20 11:25:40 +0200
+
+    Add normlization transformer on normalized Stopword
+
+
+
+:100755 100755 6f139d90688706bb773b01f5472aaa3501a29d97 dfabbfdc3264bcb00adedd5c5a455f091b8ea283 R089	src/main/java/com/pixalione/monetoring/data_preprocessing/PixalioneApplication.java	src/main/java/com/pixalione/monetoring/datapreprocessing/PixalioneApplication.java
+:100755 100755 c9893c31129ebbaca0791a66a9a384ff59c2613c 727248764ed6ea61e9f568d61ea5488a360a9ca6 R092	src/main/java/com/pixalione/monetoring/data_preprocessing/Config/SwaggerConfig.java	src/main/java/com/pixalione/monetoring/datapreprocessing/config/SwaggerConfig.java
+:100755 100755 568d86fe0a7703d5efe89ba5469740c6cc9613cb 9d8d35d3c8c9c6b9669b2fb835db77811487e29f R075	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/CommonVerbsController.java	src/main/java/com/pixalione/monetoring/datapreprocessing/controller/CommonVerbsController.java
+:100755 100755 72281429eb24fc15d7a281ea44e7842650320d2a c4c5142619bf42ae4cf79831cb45247a96e37018 R075	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/EcommerceTermsController.java	src/main/java/com/pixalione/monetoring/datapreprocessing/controller/EcommerceTermsController.java
+:100755 100755 b049e4feb7dcbf702315e172978e1c78e7c8a50d f8af4748d53ee29d6c84e9e6ad1765d57c124937 R075	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/MetricsController.java	src/main/java/com/pixalione/monetoring/datapreprocessing/controller/MetricsController.java
+:100755 100755 699c3624a90b076e21b35c71a57c0f1b1290151e 264162a19fbe64f3da35de047089dc1852d0a365 R080	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/ResourcesController.java	src/main/java/com/pixalione/monetoring/datapreprocessing/controller/ResourcesController.java
+:100755 100755 92b68004f88f54d90a99612cf4beded45cf8eb1a 2a7b56664b8747016cbddd6982104f4ecfa62df8 R076	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/StopWordsController.java	src/main/java/com/pixalione/monetoring/datapreprocessing/controller/StopWordsController.java
+:100755 100755 93a53adc4ca404bbefe13b6694d29d0dfbb54bb2 eebb9bf90ae7c712bc58dfdf010c994c85e83b37 R092	src/main/java/com/pixalione/monetoring/data_preprocessing/Controller/TextExtractionController.java	src/main/java/com/pixalione/monetoring/datapreprocessing/controller/TextExtractionController.java
+:100755 100755 f6630e687b42d7feed5698107a82df13d81d5e83 3bf0c2d8c1304c5cc7c425f5ae08e63d1de7e694 R071	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/CLEANER.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/CLEANER.java
+:000000 100644 0000000000000000000000000000000000000000 ef0b45b73fcf139897f29e2b4d1789a216645545 A	src/main/java/com/pixalione/monetoring/datapreprocessing/model/Data.java
+:100755 100755 b3e84463eb26f6f3d6127ab89045aaae140784d9 8d46c325f1a6a1ffcaa9507a85b34243fb4d29ba R094	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/HTML_TAG.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/HTML_TAG.java
+:100755 100755 c97aa9dc7bdaa02e8b4a447d8d1262c120d7d7ff 9317538fe29f9aec813b895cd5a5ce8e99dd47a1 R075	src/main/java/com/pixalione/monetoring/data_preprocessing/Model/LANGUAGE.java	src/main/java/com/pixalione/monetoring/datapreprocessing/model/LANGUAGE.java
+:100755 100755 684a6383e53aa58eb64db214f153f0e99292e95e 8c17ed88d70b502156c10d43c30f65264cc0381a R093	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/File/EncodageDetectorService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/file/EncodageDetectorService.java
+:100755 100755 153a06cfc3d65839cf619f78348b4329f424ca64 52aabf35e86678c9e391e989f7b08887739bff83 R094	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/File/FileService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/file/FileService.java
+:100755 100755 95073becb289303f4f203cb43bf07b293a813d13 bed1e7ad26415f24cc2139db969f6939c01d0e54 R095	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Html/CleaningHtmlService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/html/CleaningHtmlService.java
+:100755 100755 e267aaf213305e8a32ea7313de35d05b230b4c22 07f468f271d87e9c675e4545c7d29d88bed13dc2 R096	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Html/TagRemovalService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/html/TagRemovalService.java
+:100755 100755 8bb50cbaa3aa73088aba65b55099ec2fe67c3c6e 2622204cd31ca0fd58e6eb5ce52c5192ac7298a9 R088	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/CleanTextService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/CleanTextService.java
+:100755 100755 2e1a3dbc04879298d3fc1b1ae702d1c4e05a894f f76cb0df36bf71defda665c8ab73cddd9444076e R089	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/CommonTextCleaner.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/CommonTextCleaner.java
+:100755 100755 f8c47267f8c1abced4cc9cf572c006a6fc73e5f5 f5aa94c0c7a3a19f556096d387b51603d992d817 R083	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/CommonVerbsService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/CommonVerbsService.java
+:100755 100755 3373eb9f3685ee94fb24a93932c12bf405cb19fe b77c0f492c259a55958673258006818bedd168aa R083	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/EcommerceTermsService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/EcommerceTermsService.java
+:100755 100755 0eb46668d34e48d25760069f0dadaa5cd5c5ce68 97ddf37a7fbe3a04f3391c5c58125b44cba79d52 R080	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/MetricsService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/MetricsService.java
+:000000 100644 0000000000000000000000000000000000000000 9bd05064e186f1042ef6fef4d3281b11f9b2f846 A	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/NormalizerService.java
+:100755 100755 ba5e30182e2d18b0ec2de4b12111d6d6be5bf51c f5d14ebec06d4b45a614859fbe920c22d94639e4 R061	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/StopWordsService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/StopWordsService.java
+:100755 100755 e17fa37697911f3f4e56bcaf89125fa86f74bf2e 664d35b7aa15eb3b9b3e72a2a4defb4f363060ed R089	src/main/java/com/pixalione/monetoring/data_preprocessing/Service/Text/TextExtractionService.java	src/main/java/com/pixalione/monetoring/datapreprocessing/service/text/TextExtractionService.java
+:100755 100755 016a903e2a30ed7307e6b560bb5acae88d35734b 964e3ae506844118d9af4b52ad6d043cfe5cafd2 R085	src/test/java/com/pixalione/monetoring/data_preprocessing/PixalioneApplicationTests.java	src/test/java/com/pixalione/monetoring/datapreprocessing/PixalioneApplicationTests.java
+:100755 100755 8e917075825e5a97a3077516d3b4ce3c314020e3 5f3988413839ed90aecfc7b4722c35977f35f4f2 R090	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/File/EncodageDetectorServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/file/EncodageDetectorServiceTest.java
+:100755 100755 27a4233be384a5af9011a893497ebb310578e294 82a9c472d89640186a30becc679c478e8bd2b58a R091	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/File/FileServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/file/FileServiceTest.java
+:100755 100755 b026e8a340a01253bc2afcf53a22fda0c9702a67 708fa2ca76a9b81d374ddd60af84a5a111407e27 R098	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Html/CleaningHtmlServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/html/CleaningHtmlServiceTest.java
+:100755 100755 711dc5cf09934e37a35b35209a6200876f70bd8b bc1a455284aed588c0da472d0dfc8f3012a86b9a R099	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Html/TagRemovalServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/html/TagRemovalServiceTest.java
+:100755 100755 c9d2b4113e4464a1b2a7a49062a3b57df5b06171 3f22d0e12f9342a1bd3450089641314a54f93f68 R099	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Text/CommonTextCleanerTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/text/CommonTextCleanerTest.java
+:100755 100755 e04d12b2fe153adea1dc6de9d40f896d7abfd3db 8b280b416fb2bebb7eaa5752ef3bb0f72608c52a R099	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Text/CommonVerbsServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/text/CommonVerbsServiceTest.java
+:100755 100755 bdf412d375c78ec123102f432e91c8fdf9e3290d c15f9df57faa72921385df4175f631688ce98cb7 R099	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Text/EcommerceTermsServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/text/EcommerceTermsServiceTest.java
+:100755 100755 6be509ed40a1e5bbd039148d03fa80ff2c69cf0e 93f2cdb8fbaf976c30bfead1aa04062f35586638 R098	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Text/MetricsServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/text/MetricsServiceTest.java
+:000000 100644 0000000000000000000000000000000000000000 05414e7d5191fc9bd86b7f5d942f7e695d8577cf A	src/test/java/com/pixalione/monetoring/datapreprocessing/service/text/NormalizerServiceTest.java
+:100755 100755 651de38d96b53aa40625f110e01ee2ac1daf57a6 9fcb914907822e68ced33251c3275c16005c2ecf R082	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Text/StopWordsServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/text/StopWordsServiceTest.java
+:100755 100755 7ac37e3d0fd7e7f7f11c38f9278aa673640644a6 1571115f06e0af734964c2f5a7739569e2b4b577 R098	src/test/java/com/pixalione/monetoring/data_preprocessing/Service/Text/TextExtractionServiceTest.java	src/test/java/com/pixalione/monetoring/datapreprocessing/service/text/TextExtractionServiceTest.java

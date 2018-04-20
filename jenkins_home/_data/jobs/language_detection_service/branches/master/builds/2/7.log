@@ -1,0 +1,14 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://bitbucket.org/rdpixalione/language_detection_service.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://bitbucket.org/rdpixalione/language_detection_service.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials Bitbucket server credentials
+ > git fetch --no-tags --progress https://bitbucket.org/rdpixalione/language_detection_service.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 61ebeaae69768e88cb97b2ef4538c4a48197a721 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 61ebeaae69768e88cb97b2ef4538c4a48197a721
+Commit message: " Adding Sonar Stage"
+ > git rev-list --no-walk 03c47fd7609c503e34b3acac51d6ef480c1e2524 # timeout=10
+[Bitbucket] Notifying commit build result

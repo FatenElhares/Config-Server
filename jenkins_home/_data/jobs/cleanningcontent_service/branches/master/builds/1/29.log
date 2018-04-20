@@ -1,0 +1,11 @@
+[nningcontent_service_master-HAGZYY2L7CXNFJORQV67KBU2Q3YWGWYGZWPQZN7EV2SIMJDPKEAQ] Running shell script
++ make clean
+[1;33m=> Destroying the build environment...
+[0mDeleted: sha256:9f9c65caa79a1ef9c75c11766280671b95218caace80ad8ec4be60247d2fd5c4
+Deleted: sha256:e09b6e17cc32e770a450bf11726a1a68e4212db1a67cc0d4813fe85c4e1cb07f
+Deleted: sha256:b0d0bf1ae9d5f168a08c551de8411688af07f4c37b842080ee44d9cd6823227b
+Deleted: sha256:24cb089a517b470019e384530a52f8e87a65e92ba1251072133aafbcff017e9e
+Deleted: sha256:19130acdd377082dd7e1544199d15a82d6c0be528773d2d4e88de66432648b01
+Deleted: sha256:cc1f48f67964f9cb0dd62f5d58a4d26ea633612d848d7934333c2db28eea1d5e
+[1;33m=> Clean Complete
+[0m

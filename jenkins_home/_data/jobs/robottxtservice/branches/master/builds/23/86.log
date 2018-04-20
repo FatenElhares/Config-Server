@@ -1,0 +1,7 @@
+[robottxtservice_master-ETL2XKAMIY3Y7BITJJG6N6FNWIVCHQM3WT5JAWC6CJ7XZXSK2RCA] Running shell script
++ docker save robottxt:0.1PP
++ bzip2
++ pv
++ ssh root@137.74.200.56 bunzip2 | docker load
+The image robottxt:0.1PP already exists, renaming the old one with ID sha256:74dd4bd1f60dc2d7635ec1d4421f2384015eb2a8549e24cb0df930f609b4bfcf to empty string
+Loaded image: robottxt:0.1PP
